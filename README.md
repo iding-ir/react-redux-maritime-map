@@ -1,68 +1,255 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Index
 
-## Available Scripts
+- [Intro](#intro)
+- [Demo](#demo)
+- [Data](#data)
+- [Screenshots](#screenshots)
 
-In the project directory, you can run:
+## Intro
 
-### `yarn start`
+Maritime Map has been developed using React, Redux, [Mapcraft](https://github.com/iding-ir/mapcraft) (a mini sdk that I built around Mapbox GL JS) and Bootstrap.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+It receives and combines together data from 3 standard GeoJSON files for **routes**, **vessels** and **cargos**, and allows users track down cargos and vessels on the map.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+For legacy jQuery version please visit [Here](https://github.com/iding-ir/g2-ocean).
 
-### `yarn test`
+## Demo
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Live Demo](http://g2ocean.iding.ir)
 
-### `yarn build`
+## Data
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This app loads three mock [GeoJSON](https://geojson.org) files locally:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### routes.json (shortened):
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "id": "r-1",
+        "name": "ECSA to North Europe"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              8.50067138671875,
+              53.605544099238
+            ],
+            [
+              8.368835449218748,
+              53.66905301677406
+            ],
+            [
+              8.17108154296875,
+              53.743838123480074
+            ],
+            .
+            .
+            .
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "r-2",
+        "name": "St. Lawrence to Europe"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [-70.9552001953125,
+              48.44742209577055
+            ],
+            [-70.7794189453125,
+              48.42191010942875
+            ],
+            [-70.7025146484375,
+              48.37084770238366
+            ],
+            .
+            .
+            .
+          ]
+        ]
+      }
+    },
+    .
+    .
+    .
+  ]
+}
+```
 
-### `yarn eject`
+### ports.json (shortened):
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "id": "p-1",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "Bremerhaven"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50341796875,
+          53.605544099238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-2",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "Emden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.196044921875,
+          53.34727222643009
+        ]
+      }
+    },
+    .
+    .
+    .
+  ]
+}
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### vessels.json (shortened):
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "id": "v-1",
+        "type": "vessel",
+        "routes": [
+          "r-1"
+        ],
+        "name": "Anatolian Spring",
+        "cargoes": [{
+            "owner": "kb-061",
+            "id": "oei-9102"
+          },
+          {
+            "owner": "mp-376",
+            "id": "hvy-3377"
+          },
+          .
+          .
+          .
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.119140625,
+          53.69670647530323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "v-2",
+        "type": "vessel",
+        "routes": [
+          "r-1"
+        ],
+        "name": "Punic Princess",
+        "cargoes": [{
+            "owner": "gr-765",
+            "id": "kmo-1171"
+          },
+          {
+            "owner": "ey-291",
+            "id": "qij-3638"
+          },
+          .
+          .
+          .
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.390655517578125,
+          51.644441875696955
+        ]
+      }
+    }
+    .
+    .
+    .
+  ]
+}
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Screenshots
 
-## Learn More
+### First view:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![First view](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015319.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Searching for cargo by cargo-id:
 
-### Code Splitting
+![Searching for cargo by cargo-id](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015333.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Finding the vessel:
 
-### Analyzing the Bundle Size
+![Finding the vessel](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015352.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Vessel information:
 
-### Making a Progressive Web App
+![Vessel information](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015359.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+### Searching for cargo in a vessel by its owner-id:
 
-### Advanced Configuration
+![Searching for cargo in a vessel by its owner-id](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015408.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+### Finding cargo by owner-id:
 
-### Deployment
+![Finding cargo by owner-id](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015418.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+### Selecting a trade route:
 
-### `yarn build` fails to minify
+![Selecting a trade route](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015437.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Fitting bounds to a route:
+
+![Fitting bounds to a route](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015453.png)
+
+### Viewing route info:
+
+![Viewing route info](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015538.png)
+
+### Viewing port info:
+
+![Viewing port info](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015542.png)
+
+### Show/hide layers on map:
+
+![Show/hide layers on map](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015554.png)
+
+### Dark mode:
+
+![Dark mode](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015601.png)

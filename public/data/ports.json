@@ -1,0 +1,413 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "id": "p-1",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "Bremerhaven"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.50341796875,
+          53.605544099238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-2",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "Emden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.196044921875,
+          53.34727222643009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-3",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2791748046875,
+          51.35120063065598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-4",
+        "type": "port",
+        "routes": ["r-1", "r-2"],
+        "name": "Zelzate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.7998962402343746,
+          51.18709038493268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-5",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "Gent"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.7353515625,
+          51.076782592536524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-6",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "Sheerness"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7635498046875,
+          51.436888577204996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-7",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "La Rochelle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.240081787109375,
+          46.16366336270352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-8",
+        "type": "port",
+        "routes": ["r-2"],
+        "name": "Sept-iles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-66.3079833984375,
+          50.198001033269506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-9",
+        "type": "port",
+        "routes": ["r-2"],
+        "name": "Saguenay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.960693359375,
+          48.44377831058802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-10",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "Barra do Sahy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.0836181640625, -19.864893620513136]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-11",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "Vitoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-40.2593994140625, -20.308569296896167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-12",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "Santos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.285400390625, -24.016361823963027]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-13",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "Paranagua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-48.460693359375, -25.473033261279515]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-14",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "Rio Grande"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.888427734375, -32.03136328493755]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-15",
+        "type": "port",
+        "routes": ["r-1"],
+        "name": "Colonia del Sacramento"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-57.83203125, -34.474863669009004]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-16",
+        "type": "port",
+        "routes": ["r-3"],
+        "name": "Dammam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.130615234375,
+          26.49024045886963
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-17",
+        "type": "port",
+        "routes": ["r-3"],
+        "name": "Dubai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.99755859375,
+          25.035838555635017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-18",
+        "type": "port",
+        "routes": ["r-3"],
+        "name": "Singapore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.5736083984375,
+          1.1589785722368195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-19",
+        "type": "port",
+        "routes": ["r-3"],
+        "name": "Changzhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.608154296875,
+          32.19885712788488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-20",
+        "type": "port",
+        "routes": ["r-3", "r-4"],
+        "name": "Nantong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.80291748046874,
+          32.00574690121464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-21",
+        "type": "port",
+        "routes": ["r-3", "r-4"],
+        "name": "Shanghai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.67907714843751,
+          31.3348710339506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-22",
+        "type": "port",
+        "routes": ["r-4"],
+        "name": "Ulsan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.44091796875,
+          35.585851593232356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-23",
+        "type": "port",
+        "routes": ["r-4"],
+        "name": "Shizouka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.526611328125,
+          35.03899204678081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-24",
+        "type": "port",
+        "routes": ["r-4"],
+        "name": "Penco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          286.9903564453125, -36.72787819497747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-25",
+        "type": "port",
+        "routes": ["r-4"],
+        "name": "Coronel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          286.83929443359375, -37.05736900011469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-26",
+        "type": "port",
+        "routes": ["r-4"],
+        "name": "Gunsan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.639404296875,
+          35.98689628443789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "p-27",
+        "type": "port",
+        "routes": ["r-4"],
+        "name": "Taichung"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.47882080078125,
+          24.24446024064571
+        ]
+      }
+    }
+  ]
+}

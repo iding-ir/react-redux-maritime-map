@@ -1,0 +1,4115 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "v-1",
+        "type": "vessel",
+        "routes": ["r-1"],
+        "name": "Anatolian Spring",
+        "cargoes": [
+          {
+            "owner": "kb-061",
+            "id": "oei-9102"
+          },
+          {
+            "owner": "mp-376",
+            "id": "hvy-3377"
+          },
+          {
+            "owner": "ia-634",
+            "id": "gfj-0929"
+          },
+          {
+            "owner": "fx-249",
+            "id": "ror-2943"
+          },
+          {
+            "owner": "sr-790",
+            "id": "qmy-6472"
+          },
+          {
+            "owner": "sp-966",
+            "id": "wij-1106"
+          },
+          {
+            "owner": "je-370",
+            "id": "pvw-9240"
+          },
+          {
+            "owner": "ev-395",
+            "id": "cpt-3388"
+          },
+          {
+            "owner": "fd-873",
+            "id": "cjp-3982"
+          },
+          {
+            "owner": "ad-406",
+            "id": "wbg-3596"
+          },
+          {
+            "owner": "vp-538",
+            "id": "kws-5844"
+          },
+          {
+            "owner": "dw-805",
+            "id": "aze-2060"
+          },
+          {
+            "owner": "pv-768",
+            "id": "wew-8141"
+          },
+          {
+            "owner": "vd-567",
+            "id": "itn-5791"
+          },
+          {
+            "owner": "nr-435",
+            "id": "aef-5834"
+          },
+          {
+            "owner": "bd-236",
+            "id": "fue-5645"
+          },
+          {
+            "owner": "ez-903",
+            "id": "pvg-3694"
+          },
+          {
+            "owner": "ew-608",
+            "id": "eta-3512"
+          },
+          {
+            "owner": "kh-600",
+            "id": "iyn-4417"
+          },
+          {
+            "owner": "so-686",
+            "id": "zwv-9686"
+          },
+          {
+            "owner": "jk-552",
+            "id": "itb-4662"
+          },
+          {
+            "owner": "wc-259",
+            "id": "mbt-7770"
+          },
+          {
+            "owner": "xa-019",
+            "id": "swk-1243"
+          },
+          {
+            "owner": "zt-805",
+            "id": "opw-7176"
+          },
+          {
+            "owner": "hg-390",
+            "id": "hhb-1497"
+          },
+          {
+            "owner": "vb-683",
+            "id": "szx-4456"
+          },
+          {
+            "owner": "in-656",
+            "id": "qjd-6591"
+          },
+          {
+            "owner": "on-286",
+            "id": "dlu-7965"
+          },
+          {
+            "owner": "lp-961",
+            "id": "rgt-8837"
+          },
+          {
+            "owner": "jc-129",
+            "id": "eot-0816"
+          },
+          {
+            "owner": "gb-595",
+            "id": "gtv-7668"
+          },
+          {
+            "owner": "wj-243",
+            "id": "phf-8165"
+          },
+          {
+            "owner": "le-007",
+            "id": "vew-7476"
+          },
+          {
+            "owner": "qo-755",
+            "id": "ujn-8234"
+          },
+          {
+            "owner": "nl-212",
+            "id": "oon-5640"
+          },
+          {
+            "owner": "li-124",
+            "id": "njw-0834"
+          },
+          {
+            "owner": "hj-617",
+            "id": "ukl-5975"
+          },
+          {
+            "owner": "ar-981",
+            "id": "xun-9943"
+          },
+          {
+            "owner": "dk-867",
+            "id": "zao-4308"
+          },
+          {
+            "owner": "lr-203",
+            "id": "met-4525"
+          },
+          {
+            "owner": "kb-558",
+            "id": "lpp-0628"
+          },
+          {
+            "owner": "xd-588",
+            "id": "ybz-2938"
+          },
+          {
+            "owner": "ng-937",
+            "id": "syf-4688"
+          },
+          {
+            "owner": "ov-736",
+            "id": "sxq-8794"
+          },
+          {
+            "owner": "wi-058",
+            "id": "gcx-6714"
+          },
+          {
+            "owner": "ui-347",
+            "id": "auh-3592"
+          },
+          {
+            "owner": "ys-377",
+            "id": "azf-1901"
+          },
+          {
+            "owner": "ba-461",
+            "id": "kbt-4233"
+          },
+          {
+            "owner": "pq-227",
+            "id": "cnm-4822"
+          },
+          {
+            "owner": "rr-504",
+            "id": "stv-4748"
+          },
+          {
+            "owner": "el-744",
+            "id": "zvq-6331"
+          },
+          {
+            "owner": "sv-536",
+            "id": "iko-1233"
+          },
+          {
+            "owner": "ia-994",
+            "id": "uzx-8558"
+          },
+          {
+            "owner": "qy-788",
+            "id": "apf-6275"
+          },
+          {
+            "owner": "gx-609",
+            "id": "bsy-2569"
+          },
+          {
+            "owner": "or-905",
+            "id": "msm-7107"
+          },
+          {
+            "owner": "ez-725",
+            "id": "kqy-3838"
+          },
+          {
+            "owner": "jl-656",
+            "id": "vqa-0420"
+          },
+          {
+            "owner": "rm-873",
+            "id": "jbb-4700"
+          },
+          {
+            "owner": "td-914",
+            "id": "hcr-8409"
+          },
+          {
+            "owner": "ne-760",
+            "id": "tek-2388"
+          },
+          {
+            "owner": "zk-076",
+            "id": "pfe-5748"
+          },
+          {
+            "owner": "nz-921",
+            "id": "flq-7448"
+          },
+          {
+            "owner": "pl-281",
+            "id": "fcq-8458"
+          },
+          {
+            "owner": "vr-186",
+            "id": "ghk-0091"
+          },
+          {
+            "owner": "tf-896",
+            "id": "uux-7108"
+          },
+          {
+            "owner": "qh-023",
+            "id": "hnq-3778"
+          },
+          {
+            "owner": "nz-901",
+            "id": "tyl-0211"
+          },
+          {
+            "owner": "sd-391",
+            "id": "pqo-7571"
+          },
+          {
+            "owner": "zk-620",
+            "id": "fdf-1357"
+          },
+          {
+            "owner": "ht-675",
+            "id": "ayh-7061"
+          },
+          {
+            "owner": "cg-934",
+            "id": "ocf-3427"
+          },
+          {
+            "owner": "pc-356",
+            "id": "yjo-3219"
+          },
+          {
+            "owner": "zw-088",
+            "id": "qrf-4592"
+          },
+          {
+            "owner": "sm-871",
+            "id": "xkv-4031"
+          },
+          {
+            "owner": "ro-119",
+            "id": "dhv-9848"
+          },
+          {
+            "owner": "it-568",
+            "id": "mbq-0662"
+          },
+          {
+            "owner": "xk-764",
+            "id": "joy-7922"
+          },
+          {
+            "owner": "ii-161",
+            "id": "gmz-3824"
+          },
+          {
+            "owner": "kx-476",
+            "id": "fxw-1173"
+          },
+          {
+            "owner": "si-290",
+            "id": "eby-4488"
+          },
+          {
+            "owner": "tq-530",
+            "id": "klz-5255"
+          },
+          {
+            "owner": "hu-333",
+            "id": "xry-9150"
+          },
+          {
+            "owner": "ym-148",
+            "id": "wkw-5090"
+          },
+          {
+            "owner": "xr-814",
+            "id": "sby-0586"
+          },
+          {
+            "owner": "lx-433",
+            "id": "pjs-1788"
+          },
+          {
+            "owner": "vq-528",
+            "id": "rss-9610"
+          },
+          {
+            "owner": "gc-833",
+            "id": "tay-7222"
+          },
+          {
+            "owner": "ue-551",
+            "id": "iae-5656"
+          },
+          {
+            "owner": "cx-291",
+            "id": "lgy-7772"
+          },
+          {
+            "owner": "tj-530",
+            "id": "zxf-5851"
+          },
+          {
+            "owner": "ix-198",
+            "id": "flx-1363"
+          },
+          {
+            "owner": "dy-947",
+            "id": "tji-9083"
+          },
+          {
+            "owner": "nh-339",
+            "id": "xtk-1233"
+          },
+          {
+            "owner": "bi-506",
+            "id": "eze-4863"
+          },
+          {
+            "owner": "bn-483",
+            "id": "dlu-2593"
+          },
+          {
+            "owner": "ar-443",
+            "id": "jid-2576"
+          },
+          {
+            "owner": "dg-848",
+            "id": "odt-9602"
+          },
+          {
+            "owner": "fl-245",
+            "id": "asy-8926"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.119140625, 53.69670647530323]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "v-2",
+        "type": "vessel",
+        "routes": ["r-1"],
+        "name": "Punic Princess",
+        "cargoes": [
+          {
+            "owner": "gr-765",
+            "id": "kmo-1171"
+          },
+          {
+            "owner": "ey-291",
+            "id": "qij-3638"
+          },
+          {
+            "owner": "ov-700",
+            "id": "hzo-3805"
+          },
+          {
+            "owner": "px-327",
+            "id": "eag-8767"
+          },
+          {
+            "owner": "eb-928",
+            "id": "jhq-3936"
+          },
+          {
+            "owner": "ta-880",
+            "id": "paq-4192"
+          },
+          {
+            "owner": "ye-422",
+            "id": "tbq-9797"
+          },
+          {
+            "owner": "vn-750",
+            "id": "ias-8207"
+          },
+          {
+            "owner": "hm-267",
+            "id": "eoc-6600"
+          },
+          {
+            "owner": "tg-657",
+            "id": "klp-1112"
+          },
+          {
+            "owner": "iy-105",
+            "id": "kkq-3626"
+          },
+          {
+            "owner": "av-874",
+            "id": "zok-2430"
+          },
+          {
+            "owner": "vn-533",
+            "id": "pvh-8988"
+          },
+          {
+            "owner": "wg-916",
+            "id": "zdp-7280"
+          },
+          {
+            "owner": "ms-421",
+            "id": "qus-8526"
+          },
+          {
+            "owner": "do-000",
+            "id": "mlr-6338"
+          },
+          {
+            "owner": "ei-937",
+            "id": "rsz-6112"
+          },
+          {
+            "owner": "fc-920",
+            "id": "nct-1555"
+          },
+          {
+            "owner": "qf-334",
+            "id": "mus-0368"
+          },
+          {
+            "owner": "di-814",
+            "id": "beh-8606"
+          },
+          {
+            "owner": "hc-052",
+            "id": "qyf-4643"
+          },
+          {
+            "owner": "js-702",
+            "id": "qji-1564"
+          },
+          {
+            "owner": "tm-229",
+            "id": "mxi-3842"
+          },
+          {
+            "owner": "ki-905",
+            "id": "vfz-2210"
+          },
+          {
+            "owner": "si-089",
+            "id": "yxx-3273"
+          },
+          {
+            "owner": "yd-798",
+            "id": "dpp-5551"
+          },
+          {
+            "owner": "es-853",
+            "id": "lbq-6862"
+          },
+          {
+            "owner": "ww-397",
+            "id": "ddk-6252"
+          },
+          {
+            "owner": "pp-639",
+            "id": "hxb-4938"
+          },
+          {
+            "owner": "wb-667",
+            "id": "geh-8815"
+          },
+          {
+            "owner": "gf-824",
+            "id": "mzb-9842"
+          },
+          {
+            "owner": "wi-444",
+            "id": "svf-9374"
+          },
+          {
+            "owner": "am-766",
+            "id": "ejn-4116"
+          },
+          {
+            "owner": "mg-569",
+            "id": "yrk-3108"
+          },
+          {
+            "owner": "ji-103",
+            "id": "ebk-0647"
+          },
+          {
+            "owner": "iy-242",
+            "id": "wdu-7690"
+          },
+          {
+            "owner": "ak-704",
+            "id": "zfh-7293"
+          },
+          {
+            "owner": "ai-447",
+            "id": "weo-9773"
+          },
+          {
+            "owner": "yr-710",
+            "id": "ige-2465"
+          },
+          {
+            "owner": "gi-481",
+            "id": "jhv-4605"
+          },
+          {
+            "owner": "ij-910",
+            "id": "wce-2559"
+          },
+          {
+            "owner": "ql-597",
+            "id": "ohm-1472"
+          },
+          {
+            "owner": "fv-437",
+            "id": "xzv-1654"
+          },
+          {
+            "owner": "oh-151",
+            "id": "mtz-8434"
+          },
+          {
+            "owner": "ut-290",
+            "id": "rol-7871"
+          },
+          {
+            "owner": "hi-739",
+            "id": "qqy-1264"
+          },
+          {
+            "owner": "bc-508",
+            "id": "mzd-5687"
+          },
+          {
+            "owner": "fc-381",
+            "id": "vum-7371"
+          },
+          {
+            "owner": "ee-713",
+            "id": "zib-6742"
+          },
+          {
+            "owner": "en-200",
+            "id": "oei-0354"
+          },
+          {
+            "owner": "bu-684",
+            "id": "eqk-3221"
+          },
+          {
+            "owner": "ge-268",
+            "id": "xvn-3082"
+          },
+          {
+            "owner": "do-689",
+            "id": "ank-0555"
+          },
+          {
+            "owner": "gk-556",
+            "id": "wok-2312"
+          },
+          {
+            "owner": "op-445",
+            "id": "ive-3825"
+          },
+          {
+            "owner": "ae-349",
+            "id": "erf-2387"
+          },
+          {
+            "owner": "ur-171",
+            "id": "cri-1756"
+          },
+          {
+            "owner": "em-423",
+            "id": "zun-2201"
+          },
+          {
+            "owner": "ax-990",
+            "id": "oij-8503"
+          },
+          {
+            "owner": "fw-088",
+            "id": "lkp-1166"
+          },
+          {
+            "owner": "ww-749",
+            "id": "ssj-3943"
+          },
+          {
+            "owner": "fk-032",
+            "id": "szh-2715"
+          },
+          {
+            "owner": "kr-059",
+            "id": "szu-1709"
+          },
+          {
+            "owner": "tv-261",
+            "id": "xfk-6372"
+          },
+          {
+            "owner": "mz-207",
+            "id": "bla-2318"
+          },
+          {
+            "owner": "nt-422",
+            "id": "tud-2717"
+          },
+          {
+            "owner": "bf-240",
+            "id": "igf-6395"
+          },
+          {
+            "owner": "wz-457",
+            "id": "bsr-5990"
+          },
+          {
+            "owner": "ov-845",
+            "id": "ltr-5412"
+          },
+          {
+            "owner": "jq-675",
+            "id": "qjk-1878"
+          },
+          {
+            "owner": "et-805",
+            "id": "ano-7182"
+          },
+          {
+            "owner": "ur-002",
+            "id": "ifi-7452"
+          },
+          {
+            "owner": "of-454",
+            "id": "vfd-1739"
+          },
+          {
+            "owner": "er-985",
+            "id": "eid-0173"
+          },
+          {
+            "owner": "pp-414",
+            "id": "ouf-7603"
+          },
+          {
+            "owner": "bg-286",
+            "id": "qmf-0191"
+          },
+          {
+            "owner": "ge-166",
+            "id": "zww-4075"
+          },
+          {
+            "owner": "di-780",
+            "id": "eej-3582"
+          },
+          {
+            "owner": "mu-969",
+            "id": "loz-3420"
+          },
+          {
+            "owner": "yn-613",
+            "id": "vwj-7854"
+          },
+          {
+            "owner": "ua-882",
+            "id": "fjr-0897"
+          },
+          {
+            "owner": "ll-413",
+            "id": "rjr-4438"
+          },
+          {
+            "owner": "kq-216",
+            "id": "ksf-6437"
+          },
+          {
+            "owner": "tg-315",
+            "id": "qnc-5997"
+          },
+          {
+            "owner": "nx-579",
+            "id": "kjz-3995"
+          },
+          {
+            "owner": "ak-385",
+            "id": "mbb-5095"
+          },
+          {
+            "owner": "ez-481",
+            "id": "wrp-4493"
+          },
+          {
+            "owner": "km-535",
+            "id": "acu-8850"
+          },
+          {
+            "owner": "uj-579",
+            "id": "kdv-0189"
+          },
+          {
+            "owner": "dq-019",
+            "id": "ujq-8930"
+          },
+          {
+            "owner": "jw-713",
+            "id": "pup-1657"
+          },
+          {
+            "owner": "gs-935",
+            "id": "gao-1628"
+          },
+          {
+            "owner": "pn-621",
+            "id": "gcb-6058"
+          },
+          {
+            "owner": "ee-526",
+            "id": "qiy-1956"
+          },
+          {
+            "owner": "ey-340",
+            "id": "jqa-4486"
+          },
+          {
+            "owner": "rg-564",
+            "id": "khn-0733"
+          },
+          {
+            "owner": "ll-613",
+            "id": "fnh-5050"
+          },
+          {
+            "owner": "nv-579",
+            "id": "met-7088"
+          },
+          {
+            "owner": "fg-358",
+            "id": "ypl-7470"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.390655517578125, 51.644441875696955]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "v-3",
+        "type": "vessel",
+        "routes": ["r-1"],
+        "name": "Baltic Giant",
+        "cargoes": [
+          {
+            "owner": "ot-829",
+            "id": "rom-1421"
+          },
+          {
+            "owner": "yr-256",
+            "id": "bfv-3103"
+          },
+          {
+            "owner": "ii-335",
+            "id": "urw-2773"
+          },
+          {
+            "owner": "pb-148",
+            "id": "itk-0151"
+          },
+          {
+            "owner": "xx-902",
+            "id": "enq-8091"
+          },
+          {
+            "owner": "gf-095",
+            "id": "wqt-4187"
+          },
+          {
+            "owner": "ct-260",
+            "id": "vsk-2790"
+          },
+          {
+            "owner": "cf-640",
+            "id": "tkz-6871"
+          },
+          {
+            "owner": "df-654",
+            "id": "orf-5370"
+          },
+          {
+            "owner": "ax-584",
+            "id": "plv-0531"
+          },
+          {
+            "owner": "lp-017",
+            "id": "hfx-2752"
+          },
+          {
+            "owner": "au-876",
+            "id": "rcy-8131"
+          },
+          {
+            "owner": "mt-334",
+            "id": "zmv-4579"
+          },
+          {
+            "owner": "lt-247",
+            "id": "xfr-1839"
+          },
+          {
+            "owner": "cb-249",
+            "id": "mzp-9426"
+          },
+          {
+            "owner": "it-264",
+            "id": "llb-2153"
+          },
+          {
+            "owner": "dn-736",
+            "id": "jrf-1934"
+          },
+          {
+            "owner": "fu-099",
+            "id": "bbi-5039"
+          },
+          {
+            "owner": "fi-253",
+            "id": "usp-8547"
+          },
+          {
+            "owner": "hx-208",
+            "id": "qiq-8546"
+          },
+          {
+            "owner": "zy-288",
+            "id": "vbr-9754"
+          },
+          {
+            "owner": "id-474",
+            "id": "kmt-9534"
+          },
+          {
+            "owner": "fh-367",
+            "id": "jfg-2318"
+          },
+          {
+            "owner": "ik-860",
+            "id": "oxe-8731"
+          },
+          {
+            "owner": "tj-657",
+            "id": "mqk-2617"
+          },
+          {
+            "owner": "rm-015",
+            "id": "psq-9353"
+          },
+          {
+            "owner": "pw-118",
+            "id": "viy-2105"
+          },
+          {
+            "owner": "wy-143",
+            "id": "art-0983"
+          },
+          {
+            "owner": "fm-333",
+            "id": "kqr-2181"
+          },
+          {
+            "owner": "je-265",
+            "id": "cbz-3005"
+          },
+          {
+            "owner": "lv-390",
+            "id": "lue-2769"
+          },
+          {
+            "owner": "mw-533",
+            "id": "wdo-4696"
+          },
+          {
+            "owner": "kv-938",
+            "id": "dyf-6735"
+          },
+          {
+            "owner": "va-677",
+            "id": "tag-9787"
+          },
+          {
+            "owner": "en-171",
+            "id": "vph-5630"
+          },
+          {
+            "owner": "ea-974",
+            "id": "ojv-1423"
+          },
+          {
+            "owner": "el-475",
+            "id": "dpi-3635"
+          },
+          {
+            "owner": "xn-089",
+            "id": "unx-2250"
+          },
+          {
+            "owner": "ul-325",
+            "id": "vag-8759"
+          },
+          {
+            "owner": "px-586",
+            "id": "tvn-7734"
+          },
+          {
+            "owner": "qq-665",
+            "id": "zya-2015"
+          },
+          {
+            "owner": "vp-846",
+            "id": "hxn-6137"
+          },
+          {
+            "owner": "kr-171",
+            "id": "obp-9912"
+          },
+          {
+            "owner": "yy-293",
+            "id": "onu-8252"
+          },
+          {
+            "owner": "gn-092",
+            "id": "jnj-8947"
+          },
+          {
+            "owner": "dp-341",
+            "id": "ovc-0498"
+          },
+          {
+            "owner": "ze-923",
+            "id": "mqk-2173"
+          },
+          {
+            "owner": "yn-207",
+            "id": "aqz-5885"
+          },
+          {
+            "owner": "zm-439",
+            "id": "zpz-0876"
+          },
+          {
+            "owner": "uq-817",
+            "id": "ive-7069"
+          },
+          {
+            "owner": "ku-232",
+            "id": "wne-9255"
+          },
+          {
+            "owner": "tn-599",
+            "id": "loy-2040"
+          },
+          {
+            "owner": "hh-320",
+            "id": "bza-8155"
+          },
+          {
+            "owner": "ut-142",
+            "id": "oew-5640"
+          },
+          {
+            "owner": "nr-472",
+            "id": "ffm-9932"
+          },
+          {
+            "owner": "iv-331",
+            "id": "pqg-5798"
+          },
+          {
+            "owner": "ez-669",
+            "id": "ziz-9357"
+          },
+          {
+            "owner": "mk-537",
+            "id": "sjr-0296"
+          },
+          {
+            "owner": "wd-676",
+            "id": "bvi-6577"
+          },
+          {
+            "owner": "zv-264",
+            "id": "xkr-8792"
+          },
+          {
+            "owner": "lx-980",
+            "id": "emd-5080"
+          },
+          {
+            "owner": "ei-420",
+            "id": "grk-1465"
+          },
+          {
+            "owner": "pj-020",
+            "id": "bei-4408"
+          },
+          {
+            "owner": "ie-338",
+            "id": "pje-6750"
+          },
+          {
+            "owner": "go-923",
+            "id": "ine-5064"
+          },
+          {
+            "owner": "ev-419",
+            "id": "phb-8525"
+          },
+          {
+            "owner": "ea-210",
+            "id": "jld-5689"
+          },
+          {
+            "owner": "qp-667",
+            "id": "vva-1755"
+          },
+          {
+            "owner": "vf-366",
+            "id": "kko-2016"
+          },
+          {
+            "owner": "rr-975",
+            "id": "gxf-8176"
+          },
+          {
+            "owner": "kv-137",
+            "id": "xkh-3216"
+          },
+          {
+            "owner": "ja-136",
+            "id": "xjm-9638"
+          },
+          {
+            "owner": "ls-796",
+            "id": "zhy-3771"
+          },
+          {
+            "owner": "tl-653",
+            "id": "kcp-9279"
+          },
+          {
+            "owner": "yh-316",
+            "id": "vcl-8742"
+          },
+          {
+            "owner": "gd-240",
+            "id": "nyo-9482"
+          },
+          {
+            "owner": "ix-220",
+            "id": "icm-2272"
+          },
+          {
+            "owner": "ja-722",
+            "id": "wuj-2003"
+          },
+          {
+            "owner": "eb-777",
+            "id": "jkl-0432"
+          },
+          {
+            "owner": "kj-572",
+            "id": "acb-5290"
+          },
+          {
+            "owner": "dx-752",
+            "id": "gak-2248"
+          },
+          {
+            "owner": "zy-103",
+            "id": "hnw-0664"
+          },
+          {
+            "owner": "if-119",
+            "id": "jdy-7460"
+          },
+          {
+            "owner": "fi-949",
+            "id": "cmr-5838"
+          },
+          {
+            "owner": "wj-441",
+            "id": "hst-6257"
+          },
+          {
+            "owner": "mb-196",
+            "id": "oip-6762"
+          },
+          {
+            "owner": "hx-092",
+            "id": "den-1135"
+          },
+          {
+            "owner": "fg-029",
+            "id": "uks-9091"
+          },
+          {
+            "owner": "bw-033",
+            "id": "xxj-9873"
+          },
+          {
+            "owner": "xj-263",
+            "id": "ypc-2426"
+          },
+          {
+            "owner": "bo-721",
+            "id": "wgu-0377"
+          },
+          {
+            "owner": "mk-185",
+            "id": "axn-3835"
+          },
+          {
+            "owner": "rp-986",
+            "id": "qhg-3395"
+          },
+          {
+            "owner": "ex-949",
+            "id": "shz-3988"
+          },
+          {
+            "owner": "tr-674",
+            "id": "unt-2748"
+          },
+          {
+            "owner": "dn-457",
+            "id": "idm-4779"
+          },
+          {
+            "owner": "vw-703",
+            "id": "nvu-4303"
+          },
+          {
+            "owner": "qh-051",
+            "id": "puv-6128"
+          },
+          {
+            "owner": "ap-238",
+            "id": "csa-5495"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.75732421875, 51.11817889367673]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "v-4",
+        "type": "vessel",
+        "routes": ["r-2"],
+        "name": "Etruscan Moon",
+        "cargoes": [
+          {
+            "owner": "jj-954",
+            "id": "xjq-0515"
+          },
+          {
+            "owner": "sl-908",
+            "id": "bzb-6822"
+          },
+          {
+            "owner": "we-305",
+            "id": "haa-7883"
+          },
+          {
+            "owner": "mo-315",
+            "id": "ebr-7641"
+          },
+          {
+            "owner": "jt-833",
+            "id": "wud-8848"
+          },
+          {
+            "owner": "bh-816",
+            "id": "dip-7293"
+          },
+          {
+            "owner": "ca-987",
+            "id": "uul-8651"
+          },
+          {
+            "owner": "zc-597",
+            "id": "wdp-5814"
+          },
+          {
+            "owner": "nh-386",
+            "id": "vrw-4421"
+          },
+          {
+            "owner": "ey-631",
+            "id": "etu-4551"
+          },
+          {
+            "owner": "cq-002",
+            "id": "wti-0807"
+          },
+          {
+            "owner": "cl-337",
+            "id": "sfd-1790"
+          },
+          {
+            "owner": "yp-483",
+            "id": "yia-4827"
+          },
+          {
+            "owner": "ok-500",
+            "id": "cbu-1019"
+          },
+          {
+            "owner": "vk-390",
+            "id": "bxt-6512"
+          },
+          {
+            "owner": "jt-029",
+            "id": "yug-3132"
+          },
+          {
+            "owner": "bz-751",
+            "id": "fnv-5665"
+          },
+          {
+            "owner": "xb-762",
+            "id": "mla-9214"
+          },
+          {
+            "owner": "nf-895",
+            "id": "hgu-5237"
+          },
+          {
+            "owner": "ed-279",
+            "id": "dod-8573"
+          },
+          {
+            "owner": "xy-159",
+            "id": "qbz-2380"
+          },
+          {
+            "owner": "zy-871",
+            "id": "dsf-4233"
+          },
+          {
+            "owner": "zk-905",
+            "id": "woa-5937"
+          },
+          {
+            "owner": "vb-873",
+            "id": "iit-1806"
+          },
+          {
+            "owner": "rv-874",
+            "id": "mif-1960"
+          },
+          {
+            "owner": "gy-676",
+            "id": "gbe-9077"
+          },
+          {
+            "owner": "by-092",
+            "id": "hmx-5825"
+          },
+          {
+            "owner": "jc-052",
+            "id": "kil-6289"
+          },
+          {
+            "owner": "og-670",
+            "id": "ljs-1105"
+          },
+          {
+            "owner": "yx-020",
+            "id": "jsz-0412"
+          },
+          {
+            "owner": "bh-294",
+            "id": "vrz-7932"
+          },
+          {
+            "owner": "qt-428",
+            "id": "wkb-1304"
+          },
+          {
+            "owner": "ff-015",
+            "id": "ngz-0786"
+          },
+          {
+            "owner": "hm-723",
+            "id": "yqj-0351"
+          },
+          {
+            "owner": "kz-053",
+            "id": "kwl-5158"
+          },
+          {
+            "owner": "hl-069",
+            "id": "bmi-3356"
+          },
+          {
+            "owner": "aq-129",
+            "id": "zyg-5156"
+          },
+          {
+            "owner": "rw-063",
+            "id": "wdn-2617"
+          },
+          {
+            "owner": "tz-553",
+            "id": "enx-0318"
+          },
+          {
+            "owner": "af-253",
+            "id": "hvy-8434"
+          },
+          {
+            "owner": "ru-705",
+            "id": "ojp-0902"
+          },
+          {
+            "owner": "nq-795",
+            "id": "sur-7506"
+          },
+          {
+            "owner": "oa-880",
+            "id": "mzz-1943"
+          },
+          {
+            "owner": "dp-802",
+            "id": "irx-1509"
+          },
+          {
+            "owner": "uv-237",
+            "id": "lio-5378"
+          },
+          {
+            "owner": "fr-607",
+            "id": "fjp-9168"
+          },
+          {
+            "owner": "kx-279",
+            "id": "dqe-5123"
+          },
+          {
+            "owner": "vn-071",
+            "id": "zks-9762"
+          },
+          {
+            "owner": "dh-267",
+            "id": "fvh-6700"
+          },
+          {
+            "owner": "bl-936",
+            "id": "coe-1398"
+          },
+          {
+            "owner": "ah-607",
+            "id": "tvp-3251"
+          },
+          {
+            "owner": "yi-479",
+            "id": "lmf-4223"
+          },
+          {
+            "owner": "yf-300",
+            "id": "pmh-4997"
+          },
+          {
+            "owner": "dw-232",
+            "id": "cgc-2535"
+          },
+          {
+            "owner": "br-970",
+            "id": "cld-8983"
+          },
+          {
+            "owner": "af-651",
+            "id": "yiv-6353"
+          },
+          {
+            "owner": "bs-380",
+            "id": "hpa-4453"
+          },
+          {
+            "owner": "vb-179",
+            "id": "jdc-7520"
+          },
+          {
+            "owner": "hh-686",
+            "id": "tkh-6342"
+          },
+          {
+            "owner": "qj-459",
+            "id": "lze-5371"
+          },
+          {
+            "owner": "bi-881",
+            "id": "htu-4568"
+          },
+          {
+            "owner": "rd-305",
+            "id": "dmy-8212"
+          },
+          {
+            "owner": "dx-545",
+            "id": "vtq-3827"
+          },
+          {
+            "owner": "uh-244",
+            "id": "tlq-7798"
+          },
+          {
+            "owner": "ai-348",
+            "id": "skr-4361"
+          },
+          {
+            "owner": "ok-208",
+            "id": "vmh-9890"
+          },
+          {
+            "owner": "xc-374",
+            "id": "quc-0943"
+          },
+          {
+            "owner": "ir-589",
+            "id": "ebv-2388"
+          },
+          {
+            "owner": "fj-125",
+            "id": "eai-5130"
+          },
+          {
+            "owner": "tl-301",
+            "id": "mtl-3245"
+          },
+          {
+            "owner": "nt-700",
+            "id": "zao-8678"
+          },
+          {
+            "owner": "yb-894",
+            "id": "vqa-1588"
+          },
+          {
+            "owner": "px-620",
+            "id": "prz-0472"
+          },
+          {
+            "owner": "sw-386",
+            "id": "yvh-7599"
+          },
+          {
+            "owner": "sc-501",
+            "id": "epg-4064"
+          },
+          {
+            "owner": "uk-905",
+            "id": "fli-3674"
+          },
+          {
+            "owner": "km-432",
+            "id": "ias-5744"
+          },
+          {
+            "owner": "tx-868",
+            "id": "ddn-8656"
+          },
+          {
+            "owner": "re-730",
+            "id": "bkt-1850"
+          },
+          {
+            "owner": "lx-386",
+            "id": "ckc-5756"
+          },
+          {
+            "owner": "zk-068",
+            "id": "lzk-2593"
+          },
+          {
+            "owner": "xf-112",
+            "id": "dxt-3093"
+          },
+          {
+            "owner": "ni-118",
+            "id": "iud-8739"
+          },
+          {
+            "owner": "vf-777",
+            "id": "pbm-3191"
+          },
+          {
+            "owner": "yj-338",
+            "id": "buo-9262"
+          },
+          {
+            "owner": "pk-676",
+            "id": "phu-0271"
+          },
+          {
+            "owner": "xo-521",
+            "id": "xbg-9247"
+          },
+          {
+            "owner": "ue-938",
+            "id": "epl-7487"
+          },
+          {
+            "owner": "nx-061",
+            "id": "mps-7381"
+          },
+          {
+            "owner": "fx-907",
+            "id": "aml-6501"
+          },
+          {
+            "owner": "qk-407",
+            "id": "tlm-5721"
+          },
+          {
+            "owner": "lp-464",
+            "id": "ipb-3469"
+          },
+          {
+            "owner": "tm-466",
+            "id": "edc-0291"
+          },
+          {
+            "owner": "sx-372",
+            "id": "zhl-6401"
+          },
+          {
+            "owner": "lh-265",
+            "id": "nrb-2355"
+          },
+          {
+            "owner": "de-260",
+            "id": "viw-1954"
+          },
+          {
+            "owner": "ne-878",
+            "id": "afl-3571"
+          },
+          {
+            "owner": "sf-017",
+            "id": "xvf-1154"
+          },
+          {
+            "owner": "nz-315",
+            "id": "szu-1942"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.862060546875, 48.17707562779612]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "v-5",
+        "type": "vessel",
+        "routes": ["r-2"],
+        "name": "Nordic Chief",
+        "cargoes": [
+          {
+            "owner": "al-002",
+            "id": "ols-8038"
+          },
+          {
+            "owner": "eo-434",
+            "id": "uro-8244"
+          },
+          {
+            "owner": "bz-337",
+            "id": "sip-9548"
+          },
+          {
+            "owner": "lc-451",
+            "id": "epe-5814"
+          },
+          {
+            "owner": "ts-973",
+            "id": "nbe-1242"
+          },
+          {
+            "owner": "dn-777",
+            "id": "vrv-8725"
+          },
+          {
+            "owner": "dg-023",
+            "id": "ijx-1072"
+          },
+          {
+            "owner": "xf-604",
+            "id": "coq-2604"
+          },
+          {
+            "owner": "py-427",
+            "id": "nlt-9133"
+          },
+          {
+            "owner": "jd-353",
+            "id": "kao-5252"
+          },
+          {
+            "owner": "jl-748",
+            "id": "hrq-7731"
+          },
+          {
+            "owner": "sb-432",
+            "id": "tbz-4296"
+          },
+          {
+            "owner": "ya-410",
+            "id": "gzv-6400"
+          },
+          {
+            "owner": "ks-540",
+            "id": "ibu-5878"
+          },
+          {
+            "owner": "bw-646",
+            "id": "ztz-4189"
+          },
+          {
+            "owner": "ku-309",
+            "id": "phv-2364"
+          },
+          {
+            "owner": "pz-994",
+            "id": "gxy-1280"
+          },
+          {
+            "owner": "fo-072",
+            "id": "gcw-6149"
+          },
+          {
+            "owner": "fy-002",
+            "id": "rbm-2775"
+          },
+          {
+            "owner": "nu-188",
+            "id": "qbg-4973"
+          },
+          {
+            "owner": "ns-893",
+            "id": "smc-2335"
+          },
+          {
+            "owner": "sw-247",
+            "id": "nay-8387"
+          },
+          {
+            "owner": "uu-245",
+            "id": "jlt-4345"
+          },
+          {
+            "owner": "lh-676",
+            "id": "wmh-9789"
+          },
+          {
+            "owner": "bk-024",
+            "id": "hae-7878"
+          },
+          {
+            "owner": "bg-415",
+            "id": "lcd-6941"
+          },
+          {
+            "owner": "ts-593",
+            "id": "rxm-7280"
+          },
+          {
+            "owner": "ub-339",
+            "id": "elp-4177"
+          },
+          {
+            "owner": "ga-608",
+            "id": "jnr-6619"
+          },
+          {
+            "owner": "af-294",
+            "id": "yxk-6412"
+          },
+          {
+            "owner": "zj-205",
+            "id": "hmv-3808"
+          },
+          {
+            "owner": "dm-171",
+            "id": "mrl-2242"
+          },
+          {
+            "owner": "jj-621",
+            "id": "zon-1346"
+          },
+          {
+            "owner": "zf-336",
+            "id": "nhq-4781"
+          },
+          {
+            "owner": "iv-689",
+            "id": "ydo-4319"
+          },
+          {
+            "owner": "wf-599",
+            "id": "apt-0503"
+          },
+          {
+            "owner": "rq-495",
+            "id": "oed-8227"
+          },
+          {
+            "owner": "yw-033",
+            "id": "qoo-5199"
+          },
+          {
+            "owner": "ot-074",
+            "id": "wgg-0831"
+          },
+          {
+            "owner": "ub-661",
+            "id": "fzl-1973"
+          },
+          {
+            "owner": "ox-507",
+            "id": "wdo-8393"
+          },
+          {
+            "owner": "bh-632",
+            "id": "xxa-5648"
+          },
+          {
+            "owner": "cr-908",
+            "id": "kyb-4291"
+          },
+          {
+            "owner": "pe-618",
+            "id": "fwb-6131"
+          },
+          {
+            "owner": "og-140",
+            "id": "taf-0831"
+          },
+          {
+            "owner": "gr-692",
+            "id": "hoo-9293"
+          },
+          {
+            "owner": "af-899",
+            "id": "kob-3952"
+          },
+          {
+            "owner": "hn-755",
+            "id": "gkj-5736"
+          },
+          {
+            "owner": "nk-638",
+            "id": "grz-7233"
+          },
+          {
+            "owner": "ag-221",
+            "id": "tdr-4434"
+          },
+          {
+            "owner": "gk-613",
+            "id": "vka-6358"
+          },
+          {
+            "owner": "fa-086",
+            "id": "dst-1521"
+          },
+          {
+            "owner": "xo-291",
+            "id": "vmk-1868"
+          },
+          {
+            "owner": "ox-401",
+            "id": "jcp-6023"
+          },
+          {
+            "owner": "ne-449",
+            "id": "wax-9992"
+          },
+          {
+            "owner": "kp-962",
+            "id": "awv-4359"
+          },
+          {
+            "owner": "zq-445",
+            "id": "byf-9347"
+          },
+          {
+            "owner": "dn-566",
+            "id": "pji-0074"
+          },
+          {
+            "owner": "za-458",
+            "id": "jps-0094"
+          },
+          {
+            "owner": "wc-171",
+            "id": "qsb-3333"
+          },
+          {
+            "owner": "qq-578",
+            "id": "yvi-2599"
+          },
+          {
+            "owner": "kj-805",
+            "id": "kpi-3436"
+          },
+          {
+            "owner": "wk-691",
+            "id": "njh-2688"
+          },
+          {
+            "owner": "gu-265",
+            "id": "oiu-7741"
+          },
+          {
+            "owner": "gh-409",
+            "id": "teb-7345"
+          },
+          {
+            "owner": "jc-876",
+            "id": "gaj-7794"
+          },
+          {
+            "owner": "ce-980",
+            "id": "dyx-6526"
+          },
+          {
+            "owner": "ct-241",
+            "id": "jhh-9680"
+          },
+          {
+            "owner": "in-457",
+            "id": "ggt-0912"
+          },
+          {
+            "owner": "xt-035",
+            "id": "jtn-8961"
+          },
+          {
+            "owner": "ga-302",
+            "id": "wur-3691"
+          },
+          {
+            "owner": "ej-243",
+            "id": "hwk-3735"
+          },
+          {
+            "owner": "mg-436",
+            "id": "jqd-6411"
+          },
+          {
+            "owner": "cq-258",
+            "id": "xsv-7488"
+          },
+          {
+            "owner": "xd-052",
+            "id": "irh-1948"
+          },
+          {
+            "owner": "sy-204",
+            "id": "vms-4713"
+          },
+          {
+            "owner": "za-616",
+            "id": "byi-5106"
+          },
+          {
+            "owner": "vp-629",
+            "id": "tda-0302"
+          },
+          {
+            "owner": "qz-505",
+            "id": "bes-6701"
+          },
+          {
+            "owner": "go-081",
+            "id": "iig-9471"
+          },
+          {
+            "owner": "tv-286",
+            "id": "fas-9564"
+          },
+          {
+            "owner": "ts-357",
+            "id": "jwj-0506"
+          },
+          {
+            "owner": "st-734",
+            "id": "khg-5127"
+          },
+          {
+            "owner": "bq-355",
+            "id": "mfo-2785"
+          },
+          {
+            "owner": "to-312",
+            "id": "exj-7217"
+          },
+          {
+            "owner": "ar-968",
+            "id": "xlu-6134"
+          },
+          {
+            "owner": "rx-356",
+            "id": "kiz-0107"
+          },
+          {
+            "owner": "fs-546",
+            "id": "llk-5674"
+          },
+          {
+            "owner": "op-303",
+            "id": "ued-6441"
+          },
+          {
+            "owner": "uu-263",
+            "id": "lsa-0062"
+          },
+          {
+            "owner": "mo-631",
+            "id": "lsa-6691"
+          },
+          {
+            "owner": "em-555",
+            "id": "wbi-6373"
+          },
+          {
+            "owner": "mt-751",
+            "id": "ajt-6105"
+          },
+          {
+            "owner": "qm-433",
+            "id": "ulp-2624"
+          },
+          {
+            "owner": "xk-309",
+            "id": "oyb-0416"
+          },
+          {
+            "owner": "uj-779",
+            "id": "cok-9299"
+          },
+          {
+            "owner": "kb-606",
+            "id": "kyf-2162"
+          },
+          {
+            "owner": "mj-814",
+            "id": "djo-9843"
+          },
+          {
+            "owner": "ey-046",
+            "id": "lmx-8319"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.9228515625, 50.064191736659104]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "v-6",
+        "type": "vessel",
+        "routes": ["r-3"],
+        "name": "Sun of Pontus",
+        "cargoes": [
+          {
+            "owner": "ym-340",
+            "id": "hmd-1158"
+          },
+          {
+            "owner": "cy-913",
+            "id": "bsp-6354"
+          },
+          {
+            "owner": "as-400",
+            "id": "rmt-7350"
+          },
+          {
+            "owner": "wn-730",
+            "id": "zpt-7545"
+          },
+          {
+            "owner": "sn-641",
+            "id": "vre-6567"
+          },
+          {
+            "owner": "tu-396",
+            "id": "aai-3245"
+          },
+          {
+            "owner": "li-530",
+            "id": "ccw-3669"
+          },
+          {
+            "owner": "ts-265",
+            "id": "kma-8479"
+          },
+          {
+            "owner": "qm-828",
+            "id": "vgj-6468"
+          },
+          {
+            "owner": "br-167",
+            "id": "qrv-5397"
+          },
+          {
+            "owner": "rd-748",
+            "id": "tjj-5647"
+          },
+          {
+            "owner": "py-997",
+            "id": "bza-9927"
+          },
+          {
+            "owner": "mx-679",
+            "id": "teo-1817"
+          },
+          {
+            "owner": "fj-919",
+            "id": "ubw-2553"
+          },
+          {
+            "owner": "jx-234",
+            "id": "enz-2276"
+          },
+          {
+            "owner": "av-293",
+            "id": "oda-3933"
+          },
+          {
+            "owner": "zg-857",
+            "id": "wso-0711"
+          },
+          {
+            "owner": "zr-705",
+            "id": "itu-4451"
+          },
+          {
+            "owner": "eb-696",
+            "id": "paq-7001"
+          },
+          {
+            "owner": "cp-874",
+            "id": "jzw-9967"
+          },
+          {
+            "owner": "uz-081",
+            "id": "jlx-0065"
+          },
+          {
+            "owner": "rp-282",
+            "id": "mkg-0761"
+          },
+          {
+            "owner": "ak-758",
+            "id": "lse-7091"
+          },
+          {
+            "owner": "da-578",
+            "id": "ddg-4512"
+          },
+          {
+            "owner": "xs-693",
+            "id": "zrj-4747"
+          },
+          {
+            "owner": "tx-923",
+            "id": "nsf-4528"
+          },
+          {
+            "owner": "uf-972",
+            "id": "rox-1691"
+          },
+          {
+            "owner": "as-149",
+            "id": "pqn-4545"
+          },
+          {
+            "owner": "ji-191",
+            "id": "zwn-2426"
+          },
+          {
+            "owner": "ai-323",
+            "id": "nnz-0531"
+          },
+          {
+            "owner": "lj-477",
+            "id": "juq-4399"
+          },
+          {
+            "owner": "bp-778",
+            "id": "rqk-8469"
+          },
+          {
+            "owner": "ud-383",
+            "id": "ori-2672"
+          },
+          {
+            "owner": "lb-883",
+            "id": "xlp-5744"
+          },
+          {
+            "owner": "bg-450",
+            "id": "cip-4555"
+          },
+          {
+            "owner": "fs-681",
+            "id": "gms-9088"
+          },
+          {
+            "owner": "me-189",
+            "id": "fun-5158"
+          },
+          {
+            "owner": "lf-449",
+            "id": "uvy-7073"
+          },
+          {
+            "owner": "jf-055",
+            "id": "nho-1345"
+          },
+          {
+            "owner": "op-819",
+            "id": "kjt-8912"
+          },
+          {
+            "owner": "nj-701",
+            "id": "ncb-0169"
+          },
+          {
+            "owner": "wg-049",
+            "id": "wsk-8258"
+          },
+          {
+            "owner": "ck-496",
+            "id": "mmw-2340"
+          },
+          {
+            "owner": "ri-182",
+            "id": "nqf-2902"
+          },
+          {
+            "owner": "hu-161",
+            "id": "kdf-4091"
+          },
+          {
+            "owner": "gv-736",
+            "id": "vrf-0041"
+          },
+          {
+            "owner": "sg-878",
+            "id": "xjg-7477"
+          },
+          {
+            "owner": "wy-302",
+            "id": "yrb-4752"
+          },
+          {
+            "owner": "au-808",
+            "id": "ajb-4131"
+          },
+          {
+            "owner": "yg-098",
+            "id": "usd-4567"
+          },
+          {
+            "owner": "ce-536",
+            "id": "bsu-5428"
+          },
+          {
+            "owner": "pq-305",
+            "id": "trs-8744"
+          },
+          {
+            "owner": "ka-816",
+            "id": "uqi-8906"
+          },
+          {
+            "owner": "fs-926",
+            "id": "emr-9042"
+          },
+          {
+            "owner": "jv-858",
+            "id": "qex-5828"
+          },
+          {
+            "owner": "rp-659",
+            "id": "emv-9321"
+          },
+          {
+            "owner": "wj-524",
+            "id": "mcr-3806"
+          },
+          {
+            "owner": "hp-326",
+            "id": "evq-9068"
+          },
+          {
+            "owner": "wq-619",
+            "id": "aym-6814"
+          },
+          {
+            "owner": "rt-101",
+            "id": "mqr-0836"
+          },
+          {
+            "owner": "ou-629",
+            "id": "yye-6070"
+          },
+          {
+            "owner": "xt-988",
+            "id": "cyt-6912"
+          },
+          {
+            "owner": "oo-684",
+            "id": "keb-7572"
+          },
+          {
+            "owner": "wm-999",
+            "id": "sgy-1793"
+          },
+          {
+            "owner": "cq-845",
+            "id": "kxa-2740"
+          },
+          {
+            "owner": "ls-992",
+            "id": "yme-5061"
+          },
+          {
+            "owner": "ih-525",
+            "id": "bxg-5011"
+          },
+          {
+            "owner": "mk-576",
+            "id": "eaz-2183"
+          },
+          {
+            "owner": "po-054",
+            "id": "qqn-3331"
+          },
+          {
+            "owner": "ie-412",
+            "id": "xxx-4567"
+          },
+          {
+            "owner": "cq-182",
+            "id": "mxj-0220"
+          },
+          {
+            "owner": "ss-438",
+            "id": "txd-7215"
+          },
+          {
+            "owner": "mc-340",
+            "id": "obc-3442"
+          },
+          {
+            "owner": "km-693",
+            "id": "zov-4950"
+          },
+          {
+            "owner": "af-904",
+            "id": "uxd-7483"
+          },
+          {
+            "owner": "qo-358",
+            "id": "rzn-8743"
+          },
+          {
+            "owner": "si-281",
+            "id": "gji-7301"
+          },
+          {
+            "owner": "sg-664",
+            "id": "bkq-5609"
+          },
+          {
+            "owner": "sa-095",
+            "id": "yxk-8022"
+          },
+          {
+            "owner": "lv-093",
+            "id": "qdk-4924"
+          },
+          {
+            "owner": "uv-497",
+            "id": "eqx-1339"
+          },
+          {
+            "owner": "md-892",
+            "id": "nko-8585"
+          },
+          {
+            "owner": "ru-074",
+            "id": "low-4963"
+          },
+          {
+            "owner": "dy-004",
+            "id": "xtj-1047"
+          },
+          {
+            "owner": "ad-764",
+            "id": "jkk-7927"
+          },
+          {
+            "owner": "uv-875",
+            "id": "uts-9227"
+          },
+          {
+            "owner": "nu-892",
+            "id": "tgt-4402"
+          },
+          {
+            "owner": "qq-182",
+            "id": "iat-5286"
+          },
+          {
+            "owner": "fy-245",
+            "id": "vct-4855"
+          },
+          {
+            "owner": "pm-404",
+            "id": "mew-7735"
+          },
+          {
+            "owner": "ix-690",
+            "id": "rkv-0781"
+          },
+          {
+            "owner": "tt-980",
+            "id": "vyl-7544"
+          },
+          {
+            "owner": "zr-718",
+            "id": "fly-5250"
+          },
+          {
+            "owner": "sa-123",
+            "id": "cba-4756"
+          },
+          {
+            "owner": "xp-680",
+            "id": "wxh-4124"
+          },
+          {
+            "owner": "qy-313",
+            "id": "ekc-8779"
+          },
+          {
+            "owner": "tf-571",
+            "id": "lnu-5263"
+          },
+          {
+            "owner": "sd-595",
+            "id": "ckb-9694"
+          },
+          {
+            "owner": "jo-267",
+            "id": "yhf-5799"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.0574951171875, 25.681137335685307]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "v-7",
+        "type": "vessel",
+        "routes": ["r-3"],
+        "name": "Gaelic Tune",
+        "cargoes": [
+          {
+            "owner": "xb-190",
+            "id": "yaa-0524"
+          },
+          {
+            "owner": "cv-565",
+            "id": "kmg-4763"
+          },
+          {
+            "owner": "pj-937",
+            "id": "miy-5516"
+          },
+          {
+            "owner": "zt-447",
+            "id": "uzu-5112"
+          },
+          {
+            "owner": "ah-125",
+            "id": "gqz-7939"
+          },
+          {
+            "owner": "fq-114",
+            "id": "psu-9070"
+          },
+          {
+            "owner": "rh-779",
+            "id": "nfg-8160"
+          },
+          {
+            "owner": "cd-076",
+            "id": "qdw-3344"
+          },
+          {
+            "owner": "po-242",
+            "id": "rrr-8216"
+          },
+          {
+            "owner": "ad-943",
+            "id": "vvo-9314"
+          },
+          {
+            "owner": "fl-320",
+            "id": "idx-6214"
+          },
+          {
+            "owner": "qp-897",
+            "id": "bso-5074"
+          },
+          {
+            "owner": "et-386",
+            "id": "ffm-6901"
+          },
+          {
+            "owner": "of-879",
+            "id": "cjx-0095"
+          },
+          {
+            "owner": "ta-694",
+            "id": "kvb-4482"
+          },
+          {
+            "owner": "xv-347",
+            "id": "pek-4505"
+          },
+          {
+            "owner": "cm-288",
+            "id": "rfc-4582"
+          },
+          {
+            "owner": "wh-972",
+            "id": "jri-5754"
+          },
+          {
+            "owner": "my-633",
+            "id": "mcg-5464"
+          },
+          {
+            "owner": "ol-165",
+            "id": "usd-4234"
+          },
+          {
+            "owner": "hv-829",
+            "id": "rya-6888"
+          },
+          {
+            "owner": "sk-107",
+            "id": "lfq-3404"
+          },
+          {
+            "owner": "wv-324",
+            "id": "qck-0955"
+          },
+          {
+            "owner": "qv-679",
+            "id": "ztb-1642"
+          },
+          {
+            "owner": "cd-025",
+            "id": "pse-4687"
+          },
+          {
+            "owner": "eg-817",
+            "id": "yes-2715"
+          },
+          {
+            "owner": "ke-885",
+            "id": "crj-6711"
+          },
+          {
+            "owner": "pr-921",
+            "id": "fop-2407"
+          },
+          {
+            "owner": "ro-173",
+            "id": "znt-5523"
+          },
+          {
+            "owner": "zt-932",
+            "id": "opw-7593"
+          },
+          {
+            "owner": "ks-271",
+            "id": "jof-3167"
+          },
+          {
+            "owner": "td-421",
+            "id": "jvh-0902"
+          },
+          {
+            "owner": "bz-090",
+            "id": "edc-5070"
+          },
+          {
+            "owner": "be-674",
+            "id": "pav-3859"
+          },
+          {
+            "owner": "pg-150",
+            "id": "cim-3447"
+          },
+          {
+            "owner": "wo-728",
+            "id": "lco-7963"
+          },
+          {
+            "owner": "om-566",
+            "id": "vfj-7709"
+          },
+          {
+            "owner": "cr-670",
+            "id": "tuu-2645"
+          },
+          {
+            "owner": "pm-541",
+            "id": "acw-0850"
+          },
+          {
+            "owner": "go-969",
+            "id": "wqw-6151"
+          },
+          {
+            "owner": "cs-043",
+            "id": "izi-6811"
+          },
+          {
+            "owner": "ri-156",
+            "id": "dcp-3362"
+          },
+          {
+            "owner": "yz-788",
+            "id": "pzn-2262"
+          },
+          {
+            "owner": "xx-317",
+            "id": "vzh-8457"
+          },
+          {
+            "owner": "bm-831",
+            "id": "qxn-3412"
+          },
+          {
+            "owner": "zy-771",
+            "id": "faq-4802"
+          },
+          {
+            "owner": "pc-828",
+            "id": "wns-8985"
+          },
+          {
+            "owner": "ob-528",
+            "id": "fcv-2380"
+          },
+          {
+            "owner": "wx-168",
+            "id": "neq-1514"
+          },
+          {
+            "owner": "nv-255",
+            "id": "myy-2135"
+          },
+          {
+            "owner": "xk-946",
+            "id": "loz-0508"
+          },
+          {
+            "owner": "ze-465",
+            "id": "dcf-3969"
+          },
+          {
+            "owner": "vy-116",
+            "id": "agg-8803"
+          },
+          {
+            "owner": "ro-851",
+            "id": "exp-6120"
+          },
+          {
+            "owner": "uf-369",
+            "id": "reh-5293"
+          },
+          {
+            "owner": "rt-077",
+            "id": "brw-4059"
+          },
+          {
+            "owner": "uf-476",
+            "id": "wts-0388"
+          },
+          {
+            "owner": "mk-333",
+            "id": "ogg-2031"
+          },
+          {
+            "owner": "sq-698",
+            "id": "ltk-9613"
+          },
+          {
+            "owner": "ht-260",
+            "id": "axl-4061"
+          },
+          {
+            "owner": "zs-156",
+            "id": "fri-2713"
+          },
+          {
+            "owner": "kk-552",
+            "id": "xdh-0274"
+          },
+          {
+            "owner": "sd-703",
+            "id": "yto-9678"
+          },
+          {
+            "owner": "em-256",
+            "id": "qgn-4909"
+          },
+          {
+            "owner": "ys-893",
+            "id": "bfi-1930"
+          },
+          {
+            "owner": "il-042",
+            "id": "acv-7003"
+          },
+          {
+            "owner": "ph-283",
+            "id": "xlx-9605"
+          },
+          {
+            "owner": "wx-698",
+            "id": "kre-4388"
+          },
+          {
+            "owner": "ht-686",
+            "id": "qji-3285"
+          },
+          {
+            "owner": "au-846",
+            "id": "how-8913"
+          },
+          {
+            "owner": "ws-761",
+            "id": "lal-8189"
+          },
+          {
+            "owner": "fm-064",
+            "id": "hxa-7640"
+          },
+          {
+            "owner": "ro-777",
+            "id": "ado-7504"
+          },
+          {
+            "owner": "af-878",
+            "id": "mrw-3449"
+          },
+          {
+            "owner": "mp-332",
+            "id": "pre-4302"
+          },
+          {
+            "owner": "yn-551",
+            "id": "ylf-1292"
+          },
+          {
+            "owner": "ui-190",
+            "id": "ndu-9064"
+          },
+          {
+            "owner": "ki-178",
+            "id": "zev-0663"
+          },
+          {
+            "owner": "pl-275",
+            "id": "bkg-5522"
+          },
+          {
+            "owner": "vn-625",
+            "id": "tzk-8329"
+          },
+          {
+            "owner": "tj-699",
+            "id": "dwv-0077"
+          },
+          {
+            "owner": "oe-335",
+            "id": "xim-8329"
+          },
+          {
+            "owner": "ar-768",
+            "id": "ohv-2673"
+          },
+          {
+            "owner": "zl-812",
+            "id": "xti-8906"
+          },
+          {
+            "owner": "hi-482",
+            "id": "jvq-4507"
+          },
+          {
+            "owner": "vn-604",
+            "id": "uwn-8814"
+          },
+          {
+            "owner": "gt-813",
+            "id": "mbe-5929"
+          },
+          {
+            "owner": "fp-339",
+            "id": "olm-8974"
+          },
+          {
+            "owner": "no-224",
+            "id": "jzw-7585"
+          },
+          {
+            "owner": "xo-109",
+            "id": "lum-5335"
+          },
+          {
+            "owner": "cv-437",
+            "id": "eur-4596"
+          },
+          {
+            "owner": "fa-719",
+            "id": "pdq-0238"
+          },
+          {
+            "owner": "lz-109",
+            "id": "pav-1590"
+          },
+          {
+            "owner": "jb-644",
+            "id": "pwl-6468"
+          },
+          {
+            "owner": "yy-041",
+            "id": "lwx-8833"
+          },
+          {
+            "owner": "dx-241",
+            "id": "sws-1854"
+          },
+          {
+            "owner": "cc-961",
+            "id": "klp-6977"
+          },
+          {
+            "owner": "ii-163",
+            "id": "plb-7575"
+          },
+          {
+            "owner": "rr-899",
+            "id": "cqp-7650"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.0078125, 1.4061088354351594]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "v-8",
+        "type": "vessel",
+        "routes": ["r-3"],
+        "name": "Kurdish Mountain",
+        "cargoes": [
+          {
+            "owner": "eq-068",
+            "id": "lep-1238"
+          },
+          {
+            "owner": "gx-308",
+            "id": "bxa-7481"
+          },
+          {
+            "owner": "sw-785",
+            "id": "jeq-9673"
+          },
+          {
+            "owner": "ju-074",
+            "id": "ylx-6278"
+          },
+          {
+            "owner": "mz-611",
+            "id": "fxc-8508"
+          },
+          {
+            "owner": "iv-622",
+            "id": "ovq-0850"
+          },
+          {
+            "owner": "am-616",
+            "id": "ngx-4789"
+          },
+          {
+            "owner": "kb-212",
+            "id": "rty-7821"
+          },
+          {
+            "owner": "fr-208",
+            "id": "shy-0702"
+          },
+          {
+            "owner": "fn-592",
+            "id": "syz-9432"
+          },
+          {
+            "owner": "zh-148",
+            "id": "dgl-9747"
+          },
+          {
+            "owner": "tk-584",
+            "id": "rmi-3899"
+          },
+          {
+            "owner": "oa-247",
+            "id": "pkm-2527"
+          },
+          {
+            "owner": "vq-894",
+            "id": "tmz-9977"
+          },
+          {
+            "owner": "eu-702",
+            "id": "jqy-2256"
+          },
+          {
+            "owner": "hc-960",
+            "id": "axu-3909"
+          },
+          {
+            "owner": "aj-459",
+            "id": "tvh-4191"
+          },
+          {
+            "owner": "ln-291",
+            "id": "kwr-9269"
+          },
+          {
+            "owner": "wl-291",
+            "id": "ihu-9852"
+          },
+          {
+            "owner": "cq-291",
+            "id": "lsm-2699"
+          },
+          {
+            "owner": "tt-215",
+            "id": "lqz-9881"
+          },
+          {
+            "owner": "tn-070",
+            "id": "jkv-1963"
+          },
+          {
+            "owner": "rs-516",
+            "id": "ohi-1268"
+          },
+          {
+            "owner": "eh-706",
+            "id": "pdj-7586"
+          },
+          {
+            "owner": "lt-140",
+            "id": "ppz-7443"
+          },
+          {
+            "owner": "zy-618",
+            "id": "sxh-9726"
+          },
+          {
+            "owner": "vi-640",
+            "id": "mzx-6037"
+          },
+          {
+            "owner": "az-795",
+            "id": "qyg-9203"
+          },
+          {
+            "owner": "bb-685",
+            "id": "alu-8144"
+          },
+          {
+            "owner": "eb-311",
+            "id": "ykv-4296"
+          },
+          {
+            "owner": "hl-756",
+            "id": "jfb-8559"
+          },
+          {
+            "owner": "nu-965",
+            "id": "qui-9667"
+          },
+          {
+            "owner": "xw-688",
+            "id": "rfu-6340"
+          },
+          {
+            "owner": "qz-656",
+            "id": "aew-5355"
+          },
+          {
+            "owner": "ny-312",
+            "id": "aqk-6000"
+          },
+          {
+            "owner": "yh-913",
+            "id": "vnc-5648"
+          },
+          {
+            "owner": "kb-174",
+            "id": "nfd-2126"
+          },
+          {
+            "owner": "ny-340",
+            "id": "ove-5768"
+          },
+          {
+            "owner": "yk-393",
+            "id": "nha-5683"
+          },
+          {
+            "owner": "cc-908",
+            "id": "hdz-5896"
+          },
+          {
+            "owner": "cx-911",
+            "id": "tcp-0438"
+          },
+          {
+            "owner": "nv-088",
+            "id": "jlh-2242"
+          },
+          {
+            "owner": "or-952",
+            "id": "sib-3370"
+          },
+          {
+            "owner": "mi-122",
+            "id": "kfa-5186"
+          },
+          {
+            "owner": "hc-980",
+            "id": "xfx-6544"
+          },
+          {
+            "owner": "at-899",
+            "id": "wur-1505"
+          },
+          {
+            "owner": "yf-144",
+            "id": "jfe-8233"
+          },
+          {
+            "owner": "wc-658",
+            "id": "woc-4357"
+          },
+          {
+            "owner": "ct-752",
+            "id": "njn-0035"
+          },
+          {
+            "owner": "ch-137",
+            "id": "bvx-7375"
+          },
+          {
+            "owner": "zq-304",
+            "id": "ndh-0512"
+          },
+          {
+            "owner": "gb-430",
+            "id": "yei-3534"
+          },
+          {
+            "owner": "gd-240",
+            "id": "llb-7410"
+          },
+          {
+            "owner": "rd-331",
+            "id": "fyu-4218"
+          },
+          {
+            "owner": "dl-620",
+            "id": "gfb-5335"
+          },
+          {
+            "owner": "dt-660",
+            "id": "bsn-2693"
+          },
+          {
+            "owner": "ux-004",
+            "id": "feo-3056"
+          },
+          {
+            "owner": "oa-315",
+            "id": "mtl-8448"
+          },
+          {
+            "owner": "em-715",
+            "id": "nkj-4992"
+          },
+          {
+            "owner": "rq-643",
+            "id": "kmh-2903"
+          },
+          {
+            "owner": "ko-784",
+            "id": "szu-8417"
+          },
+          {
+            "owner": "lq-860",
+            "id": "xop-3320"
+          },
+          {
+            "owner": "qh-176",
+            "id": "esn-3946"
+          },
+          {
+            "owner": "xf-431",
+            "id": "vjz-3718"
+          },
+          {
+            "owner": "it-349",
+            "id": "uha-7042"
+          },
+          {
+            "owner": "xp-375",
+            "id": "fuk-8925"
+          },
+          {
+            "owner": "oc-723",
+            "id": "jai-3359"
+          },
+          {
+            "owner": "ss-809",
+            "id": "yfr-2108"
+          },
+          {
+            "owner": "iq-494",
+            "id": "qdu-7022"
+          },
+          {
+            "owner": "xg-065",
+            "id": "fbm-8033"
+          },
+          {
+            "owner": "ko-495",
+            "id": "yoo-8932"
+          },
+          {
+            "owner": "hw-236",
+            "id": "cmp-0338"
+          },
+          {
+            "owner": "te-214",
+            "id": "dxt-6105"
+          },
+          {
+            "owner": "va-250",
+            "id": "clr-0872"
+          },
+          {
+            "owner": "zm-702",
+            "id": "nkw-1919"
+          },
+          {
+            "owner": "ca-689",
+            "id": "zgw-9527"
+          },
+          {
+            "owner": "yy-442",
+            "id": "obo-5024"
+          },
+          {
+            "owner": "nk-365",
+            "id": "lop-9949"
+          },
+          {
+            "owner": "vl-940",
+            "id": "bva-8344"
+          },
+          {
+            "owner": "pj-252",
+            "id": "gtv-4722"
+          },
+          {
+            "owner": "yj-592",
+            "id": "jkr-6148"
+          },
+          {
+            "owner": "ma-412",
+            "id": "gpw-8668"
+          },
+          {
+            "owner": "sw-020",
+            "id": "joj-7197"
+          },
+          {
+            "owner": "mq-108",
+            "id": "zia-1158"
+          },
+          {
+            "owner": "wd-393",
+            "id": "nrf-2995"
+          },
+          {
+            "owner": "fy-647",
+            "id": "cxb-1517"
+          },
+          {
+            "owner": "jy-279",
+            "id": "bek-3539"
+          },
+          {
+            "owner": "uf-544",
+            "id": "nyl-8608"
+          },
+          {
+            "owner": "vf-134",
+            "id": "gjn-1771"
+          },
+          {
+            "owner": "vr-251",
+            "id": "dyo-4183"
+          },
+          {
+            "owner": "of-816",
+            "id": "bgj-0409"
+          },
+          {
+            "owner": "ya-070",
+            "id": "dqi-1460"
+          },
+          {
+            "owner": "ur-166",
+            "id": "prh-5356"
+          },
+          {
+            "owner": "ub-077",
+            "id": "tja-5280"
+          },
+          {
+            "owner": "zq-281",
+            "id": "ifx-2964"
+          },
+          {
+            "owner": "jt-390",
+            "id": "qwg-7047"
+          },
+          {
+            "owner": "wd-117",
+            "id": "xjn-6055"
+          },
+          {
+            "owner": "pq-799",
+            "id": "mmu-7281"
+          },
+          {
+            "owner": "bi-115",
+            "id": "rxx-9667"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.81414794921875, 32.310348764525806]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "v-9",
+        "type": "vessel",
+        "routes": ["r-4"],
+        "name": "Inca Prince",
+        "cargoes": [
+          {
+            "owner": "om-395",
+            "id": "rpl-2695"
+          },
+          {
+            "owner": "qr-862",
+            "id": "vgn-2700"
+          },
+          {
+            "owner": "tm-883",
+            "id": "iei-3699"
+          },
+          {
+            "owner": "wt-021",
+            "id": "alk-0618"
+          },
+          {
+            "owner": "yq-761",
+            "id": "ewd-1275"
+          },
+          {
+            "owner": "os-025",
+            "id": "gkt-7863"
+          },
+          {
+            "owner": "ef-138",
+            "id": "oxm-0643"
+          },
+          {
+            "owner": "lr-943",
+            "id": "fmu-6543"
+          },
+          {
+            "owner": "ny-250",
+            "id": "mlg-9124"
+          },
+          {
+            "owner": "ht-030",
+            "id": "yzy-3685"
+          },
+          {
+            "owner": "hi-435",
+            "id": "toq-3912"
+          },
+          {
+            "owner": "tm-273",
+            "id": "vvi-3796"
+          },
+          {
+            "owner": "tf-442",
+            "id": "noy-6161"
+          },
+          {
+            "owner": "kw-853",
+            "id": "oks-9724"
+          },
+          {
+            "owner": "wk-581",
+            "id": "cnx-3197"
+          },
+          {
+            "owner": "ds-077",
+            "id": "vfh-0981"
+          },
+          {
+            "owner": "dr-999",
+            "id": "xit-0257"
+          },
+          {
+            "owner": "do-105",
+            "id": "gag-7574"
+          },
+          {
+            "owner": "dk-245",
+            "id": "vrt-6687"
+          },
+          {
+            "owner": "bn-975",
+            "id": "uft-1955"
+          },
+          {
+            "owner": "yq-718",
+            "id": "kas-5449"
+          },
+          {
+            "owner": "bn-996",
+            "id": "yfa-1048"
+          },
+          {
+            "owner": "oa-076",
+            "id": "amz-5584"
+          },
+          {
+            "owner": "lp-456",
+            "id": "lnk-8740"
+          },
+          {
+            "owner": "dk-064",
+            "id": "jlb-1006"
+          },
+          {
+            "owner": "ko-845",
+            "id": "sps-1405"
+          },
+          {
+            "owner": "jq-068",
+            "id": "vtp-2672"
+          },
+          {
+            "owner": "vg-545",
+            "id": "yfn-5026"
+          },
+          {
+            "owner": "tx-494",
+            "id": "kuh-6937"
+          },
+          {
+            "owner": "by-893",
+            "id": "stb-8680"
+          },
+          {
+            "owner": "yt-589",
+            "id": "sea-7875"
+          },
+          {
+            "owner": "hr-690",
+            "id": "fll-8502"
+          },
+          {
+            "owner": "fh-096",
+            "id": "rqk-1606"
+          },
+          {
+            "owner": "tl-192",
+            "id": "nwl-1714"
+          },
+          {
+            "owner": "rf-642",
+            "id": "gfq-3770"
+          },
+          {
+            "owner": "lq-463",
+            "id": "fvj-5344"
+          },
+          {
+            "owner": "rv-065",
+            "id": "dwt-5388"
+          },
+          {
+            "owner": "mn-351",
+            "id": "iet-7790"
+          },
+          {
+            "owner": "us-613",
+            "id": "wwo-4532"
+          },
+          {
+            "owner": "to-656",
+            "id": "rvh-1816"
+          },
+          {
+            "owner": "xr-646",
+            "id": "uig-7312"
+          },
+          {
+            "owner": "ye-487",
+            "id": "gdc-6689"
+          },
+          {
+            "owner": "bi-997",
+            "id": "lkv-8884"
+          },
+          {
+            "owner": "pk-477",
+            "id": "oll-3027"
+          },
+          {
+            "owner": "ly-419",
+            "id": "hxy-7018"
+          },
+          {
+            "owner": "ge-099",
+            "id": "yab-6005"
+          },
+          {
+            "owner": "id-695",
+            "id": "prg-8907"
+          },
+          {
+            "owner": "hb-926",
+            "id": "yiy-1562"
+          },
+          {
+            "owner": "kv-007",
+            "id": "cjc-8491"
+          },
+          {
+            "owner": "ft-973",
+            "id": "qim-0234"
+          },
+          {
+            "owner": "xd-224",
+            "id": "dei-8697"
+          },
+          {
+            "owner": "qc-870",
+            "id": "mmt-3231"
+          },
+          {
+            "owner": "iq-411",
+            "id": "itr-3279"
+          },
+          {
+            "owner": "yb-131",
+            "id": "och-0442"
+          },
+          {
+            "owner": "km-415",
+            "id": "zsc-9869"
+          },
+          {
+            "owner": "ux-222",
+            "id": "goq-5628"
+          },
+          {
+            "owner": "dz-977",
+            "id": "gie-2695"
+          },
+          {
+            "owner": "ci-345",
+            "id": "pug-4912"
+          },
+          {
+            "owner": "ki-744",
+            "id": "ewv-9602"
+          },
+          {
+            "owner": "bs-052",
+            "id": "ywu-5901"
+          },
+          {
+            "owner": "jm-964",
+            "id": "izw-0974"
+          },
+          {
+            "owner": "fi-998",
+            "id": "oeo-4629"
+          },
+          {
+            "owner": "ah-150",
+            "id": "htl-3732"
+          },
+          {
+            "owner": "jo-704",
+            "id": "rmp-0054"
+          },
+          {
+            "owner": "du-249",
+            "id": "jfb-2318"
+          },
+          {
+            "owner": "rs-090",
+            "id": "lyf-8581"
+          },
+          {
+            "owner": "ap-433",
+            "id": "pfq-1370"
+          },
+          {
+            "owner": "ym-295",
+            "id": "dhc-1196"
+          },
+          {
+            "owner": "xf-733",
+            "id": "bkq-9934"
+          },
+          {
+            "owner": "eq-568",
+            "id": "gwo-7099"
+          },
+          {
+            "owner": "zl-173",
+            "id": "uru-1438"
+          },
+          {
+            "owner": "rc-188",
+            "id": "slp-1364"
+          },
+          {
+            "owner": "gd-928",
+            "id": "sdg-4535"
+          },
+          {
+            "owner": "ik-479",
+            "id": "wzj-6963"
+          },
+          {
+            "owner": "jt-070",
+            "id": "ayf-1764"
+          },
+          {
+            "owner": "df-851",
+            "id": "fol-7529"
+          },
+          {
+            "owner": "yr-369",
+            "id": "tdd-9633"
+          },
+          {
+            "owner": "uu-134",
+            "id": "bue-0852"
+          },
+          {
+            "owner": "vf-962",
+            "id": "kpe-1214"
+          },
+          {
+            "owner": "qy-301",
+            "id": "ydb-5751"
+          },
+          {
+            "owner": "wt-154",
+            "id": "wlg-0702"
+          },
+          {
+            "owner": "su-478",
+            "id": "kzb-0225"
+          },
+          {
+            "owner": "ar-115",
+            "id": "omn-7108"
+          },
+          {
+            "owner": "ar-917",
+            "id": "mdr-5256"
+          },
+          {
+            "owner": "qy-749",
+            "id": "omc-9874"
+          },
+          {
+            "owner": "gu-286",
+            "id": "ggo-1637"
+          },
+          {
+            "owner": "ah-393",
+            "id": "xjn-0884"
+          },
+          {
+            "owner": "or-618",
+            "id": "gie-5590"
+          },
+          {
+            "owner": "wq-565",
+            "id": "cnm-7232"
+          },
+          {
+            "owner": "cw-634",
+            "id": "cat-7229"
+          },
+          {
+            "owner": "ct-648",
+            "id": "txh-5320"
+          },
+          {
+            "owner": "kd-230",
+            "id": "vli-8742"
+          },
+          {
+            "owner": "qw-528",
+            "id": "rrh-9811"
+          },
+          {
+            "owner": "lt-363",
+            "id": "zva-7844"
+          },
+          {
+            "owner": "ek-734",
+            "id": "nna-9830"
+          },
+          {
+            "owner": "rl-202",
+            "id": "dol-0616"
+          },
+          {
+            "owner": "st-584",
+            "id": "drz-7822"
+          },
+          {
+            "owner": "bf-333",
+            "id": "owu-0586"
+          },
+          {
+            "owner": "zb-922",
+            "id": "sur-6606"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [286.72119140625, -37.00913272027145]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "v-10",
+        "type": "vessel",
+        "routes": ["r-4"],
+        "name": "Hindu Goddess",
+        "cargoes": [
+          {
+            "owner": "oi-060",
+            "id": "nzo-9270"
+          },
+          {
+            "owner": "in-089",
+            "id": "yrj-0232"
+          },
+          {
+            "owner": "bh-703",
+            "id": "fpu-2530"
+          },
+          {
+            "owner": "yn-976",
+            "id": "vau-2968"
+          },
+          {
+            "owner": "vk-348",
+            "id": "mbz-0349"
+          },
+          {
+            "owner": "bo-267",
+            "id": "zfl-5559"
+          },
+          {
+            "owner": "fg-236",
+            "id": "uul-3697"
+          },
+          {
+            "owner": "mw-842",
+            "id": "wui-1617"
+          },
+          {
+            "owner": "xi-447",
+            "id": "kiu-3209"
+          },
+          {
+            "owner": "hl-805",
+            "id": "blw-6814"
+          },
+          {
+            "owner": "kn-978",
+            "id": "har-5673"
+          },
+          {
+            "owner": "jm-590",
+            "id": "lhr-6900"
+          },
+          {
+            "owner": "vh-622",
+            "id": "edc-4138"
+          },
+          {
+            "owner": "vk-412",
+            "id": "baw-6198"
+          },
+          {
+            "owner": "vi-529",
+            "id": "izb-6878"
+          },
+          {
+            "owner": "xo-108",
+            "id": "uhz-4620"
+          },
+          {
+            "owner": "ar-159",
+            "id": "lxf-2343"
+          },
+          {
+            "owner": "gn-667",
+            "id": "wce-2372"
+          },
+          {
+            "owner": "cd-313",
+            "id": "goj-2407"
+          },
+          {
+            "owner": "za-028",
+            "id": "uig-6275"
+          },
+          {
+            "owner": "eu-564",
+            "id": "ywf-7084"
+          },
+          {
+            "owner": "ou-946",
+            "id": "ulv-5418"
+          },
+          {
+            "owner": "yw-854",
+            "id": "krd-9829"
+          },
+          {
+            "owner": "rb-667",
+            "id": "ujg-7045"
+          },
+          {
+            "owner": "vb-869",
+            "id": "yhk-1479"
+          },
+          {
+            "owner": "kv-324",
+            "id": "tpt-2317"
+          },
+          {
+            "owner": "ld-636",
+            "id": "kog-9025"
+          },
+          {
+            "owner": "sq-512",
+            "id": "grk-9010"
+          },
+          {
+            "owner": "td-115",
+            "id": "xbe-2467"
+          },
+          {
+            "owner": "xv-136",
+            "id": "cob-0311"
+          },
+          {
+            "owner": "pp-842",
+            "id": "nok-2324"
+          },
+          {
+            "owner": "io-242",
+            "id": "oag-6702"
+          },
+          {
+            "owner": "qg-633",
+            "id": "ayq-4440"
+          },
+          {
+            "owner": "de-165",
+            "id": "qsm-6733"
+          },
+          {
+            "owner": "pg-798",
+            "id": "nbl-3004"
+          },
+          {
+            "owner": "yc-293",
+            "id": "rrf-5772"
+          },
+          {
+            "owner": "qd-968",
+            "id": "stu-1720"
+          },
+          {
+            "owner": "xx-738",
+            "id": "ajc-6182"
+          },
+          {
+            "owner": "mv-724",
+            "id": "nhu-3305"
+          },
+          {
+            "owner": "gf-575",
+            "id": "btp-7553"
+          },
+          {
+            "owner": "zg-549",
+            "id": "exg-0889"
+          },
+          {
+            "owner": "qe-864",
+            "id": "erm-8406"
+          },
+          {
+            "owner": "gb-807",
+            "id": "qpg-4272"
+          },
+          {
+            "owner": "yw-982",
+            "id": "lqd-1927"
+          },
+          {
+            "owner": "ip-963",
+            "id": "jxm-6946"
+          },
+          {
+            "owner": "jr-839",
+            "id": "zoi-3712"
+          },
+          {
+            "owner": "gf-059",
+            "id": "zyf-8888"
+          },
+          {
+            "owner": "nx-926",
+            "id": "czl-7622"
+          },
+          {
+            "owner": "kk-766",
+            "id": "bca-0797"
+          },
+          {
+            "owner": "fe-521",
+            "id": "qpy-3729"
+          },
+          {
+            "owner": "ki-689",
+            "id": "ald-6010"
+          },
+          {
+            "owner": "qh-679",
+            "id": "gtl-9463"
+          },
+          {
+            "owner": "og-465",
+            "id": "jzg-8303"
+          },
+          {
+            "owner": "qb-271",
+            "id": "ocw-6241"
+          },
+          {
+            "owner": "my-091",
+            "id": "ccm-7852"
+          },
+          {
+            "owner": "td-743",
+            "id": "jho-8337"
+          },
+          {
+            "owner": "zb-714",
+            "id": "tsj-4195"
+          },
+          {
+            "owner": "kk-793",
+            "id": "aqt-6833"
+          },
+          {
+            "owner": "st-034",
+            "id": "icy-2944"
+          },
+          {
+            "owner": "zc-974",
+            "id": "hsf-1406"
+          },
+          {
+            "owner": "cv-150",
+            "id": "lza-9000"
+          },
+          {
+            "owner": "fz-229",
+            "id": "uld-6380"
+          },
+          {
+            "owner": "ts-873",
+            "id": "afu-1471"
+          },
+          {
+            "owner": "sq-513",
+            "id": "jhc-5916"
+          },
+          {
+            "owner": "qr-638",
+            "id": "aaq-4895"
+          },
+          {
+            "owner": "iv-196",
+            "id": "ygu-2865"
+          },
+          {
+            "owner": "rr-349",
+            "id": "jnf-7185"
+          },
+          {
+            "owner": "tz-104",
+            "id": "kjp-4596"
+          },
+          {
+            "owner": "aa-613",
+            "id": "wyb-2511"
+          },
+          {
+            "owner": "vk-642",
+            "id": "gmp-1351"
+          },
+          {
+            "owner": "dk-650",
+            "id": "roi-5850"
+          },
+          {
+            "owner": "ae-898",
+            "id": "ney-1520"
+          },
+          {
+            "owner": "zw-419",
+            "id": "mbk-6744"
+          },
+          {
+            "owner": "mz-945",
+            "id": "sdl-5270"
+          },
+          {
+            "owner": "zp-030",
+            "id": "uzd-5246"
+          },
+          {
+            "owner": "qz-796",
+            "id": "fuo-3137"
+          },
+          {
+            "owner": "hc-244",
+            "id": "bms-3696"
+          },
+          {
+            "owner": "dq-917",
+            "id": "dvk-4043"
+          },
+          {
+            "owner": "wl-462",
+            "id": "nuq-5011"
+          },
+          {
+            "owner": "dw-858",
+            "id": "pzb-5389"
+          },
+          {
+            "owner": "ei-071",
+            "id": "pqr-7954"
+          },
+          {
+            "owner": "ns-775",
+            "id": "lfn-3955"
+          },
+          {
+            "owner": "pe-206",
+            "id": "csh-5418"
+          },
+          {
+            "owner": "dv-742",
+            "id": "esi-8156"
+          },
+          {
+            "owner": "uc-691",
+            "id": "sns-6733"
+          },
+          {
+            "owner": "wk-926",
+            "id": "eyf-6953"
+          },
+          {
+            "owner": "og-064",
+            "id": "tsc-0388"
+          },
+          {
+            "owner": "jl-211",
+            "id": "cof-0153"
+          },
+          {
+            "owner": "xm-994",
+            "id": "edt-8935"
+          },
+          {
+            "owner": "pa-548",
+            "id": "gyu-0953"
+          },
+          {
+            "owner": "ix-286",
+            "id": "zjg-2058"
+          },
+          {
+            "owner": "jg-699",
+            "id": "nyh-6895"
+          },
+          {
+            "owner": "jq-044",
+            "id": "zgr-7337"
+          },
+          {
+            "owner": "zm-495",
+            "id": "fmo-2233"
+          },
+          {
+            "owner": "ma-492",
+            "id": "xjc-2275"
+          },
+          {
+            "owner": "nl-360",
+            "id": "ztl-7066"
+          },
+          {
+            "owner": "gk-240",
+            "id": "yju-8881"
+          },
+          {
+            "owner": "ax-097",
+            "id": "ney-4529"
+          },
+          {
+            "owner": "ts-265",
+            "id": "hdu-4501"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [157.67578125, 20.138470312451155]
+      }
+    }
+  ]
+}
