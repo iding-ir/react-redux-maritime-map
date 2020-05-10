@@ -12,7 +12,7 @@ export default () => {
       // light: "mapbox://styles/mapbox/streets-v11",
       light: "/mapcraft/jsons/styles/light/style.json",
     },
-    defaultStyle: "dark",
+    // defaultStyle: "dark",
     map: {
       container: "app-map",
       center: [35, 35],
