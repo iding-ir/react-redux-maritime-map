@@ -1,10 +1,10 @@
 .nav {
-  display: flex;
-  flex-wrap: wrap;
-  padding: var(--padding-md);
+  padding: var(--padding-sm);
 
   .block {
+    float: left;
     width: 100%;
+    padding: var(--padding-sm);
 
     @media only screen and (min-width: 600px) {
       width: 50%;
@@ -13,6 +13,10 @@
     @media only screen and (min-width: 1280px) {
       width: 25%;
     }
+  }
+
+  .sc-form-text {
+    flex-grow: 10;
   }
 
   .sc-form-button {

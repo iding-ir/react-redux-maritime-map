@@ -34,9 +34,9 @@ class Nav extends Component {
       return <div className={classes}>{item.id}</div>;
     };
 
-    const onChange = (event) => setCargo(event.target.value);
+    const onChangeAutocomplete = (event) => setCargo(event.target.value);
 
-    const onSelect = (value) => {
+    const onSelectAutocomplete = (value) => {
       setCargo(value);
 
       let geoJson = Object.assign({}, vessels);
@@ -51,10 +51,22 @@ class Nav extends Component {
       });
     };
 
+    const onChangeRoute = (event) => {
+      const geoJson = Object.assign({}, mapcraft.geoJsons.routes);
+
+      geoJson.features = geoJson.features.filter(
+        (feature) => feature.properties.id === event.target.value
+      );
+
+      mapcraft.fitBounds({
+        geoJson,
+      });
+    };
+
     return (
       <nav className="nav">
-        <div class="block">
-          <form className="sc-form sc-flex-r">
+        <form className="sc-form">
+          <div class="block  sc-flex-r">
             <div className="sc-form-text">
               <Autocomplete
                 shouldItemRender={shouldItemRender}
@@ -63,8 +75,8 @@ class Nav extends Component {
                 renderInput={renderInput}
                 renderItem={renderItem}
                 value={selectedCargo}
-                onChange={onChange}
-                onSelect={onSelect}
+                onChange={onChangeAutocomplete}
+                onSelect={onSelectAutocomplete}
               />
             </div>
 
@@ -75,8 +87,22 @@ class Nav extends Component {
                 <span>Track</span>
               </button>
             </div>
-          </form>
-        </div>
+          </div>
+
+          <div className="block">
+            <div class="sc-form-select">
+              <select onChange={onChangeRoute}>
+                <option value="" disabled={true} selected={true}>
+                  Select a route...
+                </option>
+                <option value="r-1">ECSA to North Europe</option>
+                <option value="r-2">St. Lawrence to Europe</option>
+                <option value="r-3">Far East to Middle East</option>
+                <option value="r-4">Chile to Far East</option>
+              </select>
+            </div>
+          </div>
+        </form>
       </nav>
     );
   }
