@@ -1,18 +1,18 @@
 import Mapcraft from "mapcraft";
+console.log(process);
 
 export default () => {
   return new Mapcraft({
     env: {
       mapbox: {
-        token:
-          "pk.eyJ1IjoiYXlkaW5naGFuZSIsImEiOiJjazJpcXB1Zm8xamNvM21sNjlsMG95ejY3In0.jMuteEFuzviEuitJZ-DY2w",
+        token: process.env.REACT_APP_MAPBOX_TOKEN,
       },
     },
     styles: {
       // light: "mapbox://styles/mapbox/streets-v11",
       light: "/mapcraft/jsons/styles/light/style.json",
     },
-    // defaultStyle: "dark",
+    defaultStyle: "dark",
     map: {
       container: "app-map",
       center: [35, 35],
