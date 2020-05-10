@@ -1,5 +1,6 @@
 .nav {
   padding: var(--padding-sm);
+  border-bottom: var(--border-thickness) solid var(--color-primary-light);
 
   .block {
     float: left;
