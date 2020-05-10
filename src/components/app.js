@@ -3,7 +3,6 @@ import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import Mapcraft from "mapcraft";
 import "bootstrap/dist/css/bootstrap.css";
-// import "easy-autocomplete";
 
 import "./app.css";
 import Nav from "./nav";
@@ -18,11 +17,13 @@ class App extends Component {
   }
 
   render() {
-    const { allCargos, selectedCargo, setCargo } = this.props;
+    const { vessels, allCargos, selectedCargo, setCargo } = this.props;
 
     return (
       <div className="app">
         <Nav
+          mapcraft={this.mapcraft}
+          vessels={vessels}
           allCargos={allCargos}
           selectedCargo={selectedCargo}
           setCargo={setCargo}

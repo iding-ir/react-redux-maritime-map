@@ -5,16 +5,14 @@ import Autocomplete from "react-autocomplete";
 import "./nav.css";
 
 class Nav extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      value: "",
-    };
-  }
-
   render() {
-    const { allCargos, selectedCargo, setCargo } = this.props;
+    const {
+      mapcraft,
+      vessels,
+      allCargos,
+      selectedCargo,
+      setCargo,
+    } = this.props;
 
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -63,7 +61,21 @@ class Nav extends Component {
                 )}
                 value={selectedCargo}
                 onChange={(e) => setCargo(e.target.value)}
-                onSelect={(value) => setCargo(value)}
+                onSelect={(value) => {
+                  setCargo(value);
+
+                  let geoJson = Object.assign({}, vessels);
+
+                  geoJson.features = geoJson.features.filter((feature) => {
+                    return feature.properties.cargoes.filter(
+                      (cargo) => cargo.id === value
+                    ).length;
+                  });
+
+                  mapcraft.fitBounds({
+                    geoJson,
+                  });
+                }}
               />
 
               <button
