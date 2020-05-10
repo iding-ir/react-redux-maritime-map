@@ -5,13 +5,10 @@
     float: left;
     width: 100%;
     padding: var(--padding-sm);
+    line-height: var(--icon-md);
 
-    @media only screen and (min-width: 600px) {
-      width: 50%;
-    }
-
-    @media only screen and (min-width: 1280px) {
-      width: 25%;
+    @media only screen and (min-width: 840px) {
+      width: 33.33%;
     }
   }
 
@@ -35,6 +32,17 @@
     &.autocomplete-highlighted {
       color: var(--color-light);
       background-color: var(--color-secondary-light);
+    }
+  }
+
+  .layer-manager {
+    display: flex;
+    height: calc(var(--icon-md) + 2 * var(--padding-sm));
+    align-items: center;
+
+    .sc-form-checkbox {
+      display: inline-block;
+      flex-grow: 10;
     }
   }
 }

@@ -113,7 +113,7 @@ class Nav extends Component {
             </div>
           </div>
 
-          <div className="block sc-grid-3">
+          <div className="block layer-manager">
             <div className="sc-form-checkbox">
               <input
                 type="checkbox"
