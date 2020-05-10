@@ -1,6 +1,6 @@
 {
   "name": "react-redux-maritime-map",
-  "version": "0.5.0",
+  "version": "0.7.0",
   "private": true,
   "description": "A maritime vessel and cargo tracking map done with React and Redux.",
   "keywords": [
