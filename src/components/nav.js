@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Autocomplete from "react-autocomplete";
 import * as classnames from "classnames";
 
-import "./nav.css";
+import "./nav.scss";
 
 class Nav extends Component {
   render() {
@@ -20,7 +20,7 @@ class Nav extends Component {
     const renderInput = (props) => (
       <input
         {...props}
-        className="cargo-seatch"
+        className="cargo-search"
         type="search"
         placeholder="cargo-id (abc-1234)"
       />
@@ -53,28 +53,30 @@ class Nav extends Component {
 
     return (
       <nav className="nav">
-        <form className="sc-form sc-flex-r">
-          <div className="sc-form-text">
-            <Autocomplete
-              shouldItemRender={shouldItemRender}
-              getItemValue={(item) => item.id}
-              items={allCargos}
-              renderInput={renderInput}
-              renderItem={renderItem}
-              value={selectedCargo}
-              onChange={onChange}
-              onSelect={onSelect}
-            />
-          </div>
+        <div class="block">
+          <form className="sc-form sc-flex-r">
+            <div className="sc-form-text">
+              <Autocomplete
+                shouldItemRender={shouldItemRender}
+                getItemValue={(item) => item.id}
+                items={allCargos}
+                renderInput={renderInput}
+                renderItem={renderItem}
+                value={selectedCargo}
+                onChange={onChange}
+                onSelect={onSelect}
+              />
+            </div>
 
-          <div className="sc-form-button sc-md">
-            <button type="button">
-              <i className="sc-icon-search"></i>
+            <div className="sc-form-button sc-md">
+              <button type="button">
+                <i className="sc-icon-search"></i>
 
-              <span>Track</span>
-            </button>
-          </div>
-        </form>
+                <span>Track</span>
+              </button>
+            </div>
+          </form>
+        </div>
       </nav>
     );
   }

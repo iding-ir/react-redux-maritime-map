@@ -1,25 +1,36 @@
 .nav {
+  display: flex;
+  flex-wrap: wrap;
   padding: var(--padding-md);
-}
 
-.nav > div {
-  width: 100%;
-}
+  .block {
+    width: 100%;
 
-.nav .sc-form-button {
-  margin-left: var(--padding-sm);
-}
+    @media only screen and (min-width: 600px) {
+      width: 50%;
+    }
 
-.nav .cargo-seatch ~ div {
-  z-index: 9999;
-}
+    @media only screen and (min-width: 1280px) {
+      width: 25%;
+    }
+  }
 
-.autocomplete-item {
-  padding: var(--padding-sm) var(--padding-md);
-}
+  .sc-form-button {
+    margin-left: var(--padding-sm);
+  }
 
-.autocomplete-highlighted {
-  padding: var(--padding-sm) var(--padding-md);
-  color: var(--color-light);
-  background-color: var(--color-secondary-light);
+  .cargo-search {
+    ~ div {
+      z-index: 9999;
+    }
+  }
+
+  .autocomplete-item {
+    padding: var(--padding-sm) var(--padding-md);
+
+    &.autocomplete-highlighted {
+      color: var(--color-light);
+      background-color: var(--color-secondary-light);
+    }
+  }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import * as classnames from "classnames";
 
-import "./modal.css";
+import "./modal.scss";
 
 class Modal extends Component {
   render() {

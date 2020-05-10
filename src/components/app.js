@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 
-import "./app.css";
+import "./app.scss";
 import Nav from "./nav";
 import Map from "./map";
 import Modal from "./modal";
