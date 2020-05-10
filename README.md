@@ -2,8 +2,9 @@
 
 - [Intro](#intro)
 - [Demo](#demo)
+- [Legacy](#legacy)
+- [Preview](#preview)
 - [Data](#data)
-- [Screenshots](#screenshots)
 
 ## Intro
 
@@ -15,7 +16,15 @@ For legacy jQuery version please visit [Here](https://github.com/iding-ir/g2-oce
 
 ## Demo
 
-[Live Demo](http://react-redux-maritime-map.iding.ir)
+[Live demo](http://react-redux-maritime-map.iding.ir)
+
+## Legacy
+
+For the legacy jQuery version please visit [g2-ocean](https://github.com/iding-ir/g2-ocean).
+
+## Preview
+
+<img src="https://github.com/iding-ir/react-redux-maritime-map/blob/master/raw/previews/preview-1.gif" alt="Preview" style="width:100%;">
 
 ## Data
 
@@ -203,53 +212,3 @@ This app loads three mock [GeoJSON](https://geojson.org) files locally:
   ]
 }
 ```
-
-## Screenshots
-
-### First view:
-
-![First view](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015319.png)
-
-### Searching for cargo by cargo-id:
-
-![Searching for cargo by cargo-id](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015333.png)
-
-### Finding the vessel:
-
-![Finding the vessel](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015352.png)
-
-### Vessel information:
-
-![Vessel information](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015359.png)
-
-### Searching for cargo in a vessel by its owner-id:
-
-![Searching for cargo in a vessel by its owner-id](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015408.png)
-
-### Finding cargo by owner-id:
-
-![Finding cargo by owner-id](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015418.png)
-
-### Selecting a trade route:
-
-![Selecting a trade route](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015437.png)
-
-### Fitting bounds to a route:
-
-![Fitting bounds to a route](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015453.png)
-
-### Viewing route info:
-
-![Viewing route info](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015538.png)
-
-### Viewing port info:
-
-![Viewing port info](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015542.png)
-
-### Show/hide layers on map:
-
-![Show/hide layers on map](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015554.png)
-
-### Dark mode:
-
-![Dark mode](http://g2ocean.iding.ir/screenshots/screen-shot-2019-11-12-at-015601.png)
