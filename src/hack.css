@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+.easy-autocomplete {
+  width: auto !important;
+}
+
+.accordion > .card .card-header {
+  margin-bottom: 0 !important;
+}
+
+.form-group {
+  width: 100%;
+}
+
+@media only screen and (min-width: 576px) {
+  .form-group {
+    width: auto;
+  }
+}
+
+.mapboxgl-popup-content {
+  width: 240px !important;
+  padding: 0px !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.mapboxgl-popup-content .card {
+  border-radius: 0 !important;
+  border: none !important;
+}
