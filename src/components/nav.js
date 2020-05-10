@@ -63,10 +63,20 @@ class Nav extends Component {
       });
     };
 
+    const onChangeLayer = (event) => {
+      const layer = event.target.value;
+      const visibility = event.target.checked ? "visible" : "none";
+
+      mapcraft.switchLayer({
+        layer,
+        visibility,
+      });
+    };
+
     return (
       <nav className="nav">
         <form className="sc-form">
-          <div class="block  sc-flex-r">
+          <div className="block  sc-flex-r">
             <div className="sc-form-text">
               <Autocomplete
                 shouldItemRender={shouldItemRender}
@@ -90,9 +100,9 @@ class Nav extends Component {
           </div>
 
           <div className="block">
-            <div class="sc-form-select">
-              <select onChange={onChangeRoute}>
-                <option value="" disabled={true} selected={true}>
+            <div className="sc-form-select">
+              <select value="" onChange={onChangeRoute}>
+                <option value="" disabled={true}>
                   Select a route...
                 </option>
                 <option value="r-1">ECSA to North Europe</option>
@@ -100,6 +110,56 @@ class Nav extends Component {
                 <option value="r-3">Far East to Middle East</option>
                 <option value="r-4">Chile to Far East</option>
               </select>
+            </div>
+          </div>
+
+          <div className="block sc-grid-3">
+            <div className="sc-form-checkbox">
+              <input
+                type="checkbox"
+                value="point-symbol-vessels"
+                id="layer-vessels"
+                onChange={onChangeLayer}
+                defaultChecked={true}
+              />
+
+              <label htmlFor="layer-vessels">
+                <i className="sc-icon-checkbox"></i>
+
+                <span>Vessels</span>
+              </label>
+            </div>
+
+            <div className="sc-form-checkbox">
+              <input
+                type="checkbox"
+                value="point-symbol-ports"
+                id="layer-ports"
+                onChange={onChangeLayer}
+                defaultChecked={true}
+              />
+
+              <label htmlFor="layer-ports">
+                <i className="sc-icon-checkbox"></i>
+
+                <span>Ports</span>
+              </label>
+            </div>
+
+            <div className="sc-form-checkbox">
+              <input
+                type="checkbox"
+                value="polyline-line-routes"
+                id="layer-routes"
+                onChange={onChangeLayer}
+                defaultChecked={true}
+              />
+
+              <label htmlFor="layer-routes">
+                <i className="sc-icon-checkbox"></i>
+
+                <span>Routes</span>
+              </label>
             </div>
           </div>
         </form>

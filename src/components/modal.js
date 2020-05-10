@@ -6,7 +6,7 @@ import "./modal.scss";
 class Modal extends Component {
   render() {
     const { modal, hideModal, selectedCargo } = this.props;
-    const { visible, id, name, routes, cargos } = modal;
+    const { visible, name, cargos } = modal;
 
     const modalClasses = classnames("sc-modal sc-lg", {
       "sc-is-active": visible,
@@ -33,7 +33,11 @@ class Modal extends Component {
                     "is-selected": item.id === selectedCargo,
                   });
 
-                  return <span className={badgeClasses}>{item.id}</span>;
+                  return (
+                    <span key={item.id} className={badgeClasses}>
+                      {item.id}
+                    </span>
+                  );
                 })}
               </div>
             </div>
