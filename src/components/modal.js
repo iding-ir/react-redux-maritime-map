@@ -19,7 +19,7 @@ class Modal extends Component {
     return (
       <>
         <div className={modalClasses}>
-          <div className="sc-card">
+          <div className="sc-card sc-borderless">
             <header className="sc-card-header">
               <h3>{name}</h3>
             </header>

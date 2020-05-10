@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import "stylecraft/dist/stylecraft.css";
+import mapboxgl from "mapbox-gl";
 
 import "./app.css";
 import Nav from "./nav";
@@ -61,13 +61,17 @@ class App extends Component {
 
     this.mapcraft.load().then(() => {
       const { map, geoJsons } = this.mapcraft;
-      const { vessels, ports, routes } = geoJsons;
+      const {
+        vessels: vesselsGeoJsons,
+        ports: portsGeoJsons,
+        routes: routesGeoJsons,
+      } = geoJsons;
 
-      setVessels(vessels);
-      setPorts(ports);
-      setRoutes(routes);
+      setVessels(vesselsGeoJsons);
+      setPorts(portsGeoJsons);
+      setRoutes(routesGeoJsons);
 
-      const cargos = vessels.features.reduce(
+      const cargos = vesselsGeoJsons.features.reduce(
         (total, item) => [...total, ...item.properties.cargos],
         []
       );
@@ -80,6 +84,76 @@ class App extends Component {
         const cargos = JSON.parse(event.features[0].properties.cargos);
 
         showModal({ id, name, routes, cargos });
+      });
+
+      map.on("click", "point-symbol-ports", (event) => {
+        const name = event.features[0].properties.name;
+        const routes = JSON.parse(event.features[0].properties.routes);
+        const coordinates = event.features[0].geometry.coordinates.slice();
+
+        while (Math.abs(event.lngLat.lng - coordinates[0]) > 180) {
+          coordinates[0] += event.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
+
+        const vesselsHtml = vesselsGeoJsons.features
+          .filter(
+            (feature) =>
+              feature.properties.routes.filter((route) =>
+                routes.includes(route)
+              ).length
+          )
+          .reduce(
+            (total, vessel) => (total += `<li>${vessel.properties.name}</li>`),
+            ""
+          );
+
+        const html = `<div class="sc-card sc-borderless">
+          <header class="sc-card-header">
+            <h5>${name}</h5>
+          </header>
+
+          <div class="sc-card-body">
+            <p>The following vessels visit this port:</p>
+
+            <ul class="sc-list">${vesselsHtml}</ul>
+          </div>
+        </div>`;
+
+        this.mapcraft.openPopup({
+          lnglat: coordinates,
+          html,
+        });
+      });
+
+      map.on("click", "polyline-line-routes", (event) => {
+        const { id, name } = event.features[0].properties;
+        const coordinates = event.lngLat;
+
+        const vesselsHtml = vesselsGeoJsons.features
+          .filter((feature) => {
+            return feature.properties.routes.filter((route) => route === id)
+              .length;
+          })
+          .reduce((total, vessel) => {
+            return (total += `<li>${vessel.properties.name}</li>`);
+          }, "");
+
+        const html = `<div class="sc-card sc-borderless">
+          <header class="sc-card-header">
+            <h5>${name}</h5>
+          </header>
+
+          <div class="sc-card-body">
+            <p>The following vessels use this route:</p>
+
+            <ul class="sc-list">${vesselsHtml}</ul>
+          </div>
+        </div>`;
+
+        this.mapcraft.openPopup({
+          lnglat: coordinates,
+          html,
+        });
       });
     });
   };
