@@ -15,7 +15,7 @@ For legacy jQuery version please visit [Here](https://github.com/iding-ir/g2-oce
 
 ## Demo
 
-[Live Demo](http://g2ocean.iding.ir)
+[Live Demo](http://react-redux-maritime-map.iding.ir)
 
 ## Data
 
@@ -146,7 +146,7 @@ This app loads three mock [GeoJSON](https://geojson.org) files locally:
           "r-1"
         ],
         "name": "Anatolian Spring",
-        "cargoes": [{
+        "cargos": [{
             "owner": "kb-061",
             "id": "oei-9102"
           },
@@ -176,7 +176,7 @@ This app loads three mock [GeoJSON](https://geojson.org) files locally:
           "r-1"
         ],
         "name": "Punic Princess",
-        "cargoes": [{
+        "cargos": [{
             "owner": "gr-765",
             "id": "kmo-1171"
           },
