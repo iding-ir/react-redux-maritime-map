@@ -32,12 +32,14 @@
     "@testing-library/user-event": "^7.1.2",
     "classnames": "^2.2.6",
     "mapcraft": "^0.2.0",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-autocomplete": "^1.8.1",
     "react-dom": "^16.13.1",
     "react-redux": "^7.2.0",
     "react-scripts": "3.4.1",
     "redux": "^4.0.5",
+    "save": "^2.4.0",
     "stylecraft": "^0.10.0"
   },
   "scripts": {
