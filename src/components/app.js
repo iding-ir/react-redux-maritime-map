@@ -1,12 +1,15 @@
 import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.css";
+import { connect } from "react-redux";
+import { bindActionCreators } from "redux";
 import Mapcraft from "mapcraft";
+import "bootstrap/dist/css/bootstrap.css";
 // import "easy-autocomplete";
 
 import "./app.css";
 import Nav from "./nav";
 import Map from "./map";
 import Modal from "./modal";
+import { setCargos } from "../actions/cargos";
 
 class App extends Component {
   componentDidMount() {
@@ -14,9 +17,11 @@ class App extends Component {
   }
 
   render() {
+    const { cargos } = this.props;
+
     return (
       <div className="app">
-        <Nav />
+        <Nav cargos={cargos} />
 
         <Map />
 
@@ -61,12 +66,28 @@ class App extends Component {
     });
 
     this.mapcraft.load().then(() => {
-      this.cargos = this.mapcraft.geoJsons.vessels.features.reduce(
+      const { setCargos } = this.props;
+
+      const cargos = this.mapcraft.geoJsons.vessels.features.reduce(
         (total, item) => [...total, ...item.properties.cargoes],
         []
       );
+
+      setCargos(cargos);
     });
   };
 }
 
-export default App;
+const mapStateToProps = (state) => ({
+  cargos: state.cargos,
+});
+
+const mapDispatchToProps = (dispatch) =>
+  bindActionCreators(
+    {
+      setCargos,
+    },
+    dispatch
+  );
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
