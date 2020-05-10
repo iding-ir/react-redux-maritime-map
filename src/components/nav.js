@@ -38,7 +38,7 @@ class Nav extends Component {
       let geoJson = Object.assign({}, vessels);
 
       geoJson.features = geoJson.features.filter((feature) => {
-        return feature.properties.cargoes.filter((cargo) => cargo.id === value)
+        return feature.properties.cargos.filter((cargo) => cargo.id === value)
           .length;
       });
 

@@ -1,0 +1,7 @@
+.badge {
+  text-align: center;
+  line-height: var(--icon-md);
+  border-radius: var(--border-radius);
+  color: var(--color-dark);
+  background-color: var(--fade-dark-sm);
+}

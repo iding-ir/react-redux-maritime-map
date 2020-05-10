@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import Mapcraft from "mapcraft";
 import "stylecraft/dist/stylecraft.css";
 
 import "./app.css";
 import Nav from "./nav";
 import Map from "./map";
 import Modal from "./modal";
+import initializeMapcraft from "../utils/initializeMap";
 import { setCargos, setCargo } from "../actions/cargos";
 import { setVessels, setPorts, setRoutes } from "../actions/geojsons";
+import { showModal, hideModal } from "../actions/modal";
 
 class App extends Component {
   componentDidMount() {
@@ -17,7 +18,14 @@ class App extends Component {
   }
 
   render() {
-    const { vessels, allCargos, selectedCargo, setCargo } = this.props;
+    const {
+      vessels,
+      allCargos,
+      selectedCargo,
+      setCargo,
+      modal,
+      hideModal,
+    } = this.props;
 
     return (
       <div className="app">
@@ -31,61 +39,44 @@ class App extends Component {
 
         <Map />
 
-        <Modal />
+        <Modal modal={modal} hideModal={hideModal} />
       </div>
     );
   }
 
   initializeMap = () => {
-    const { setCargos, setVessels, setPorts, setRoutes } = this.props;
+    const {
+      setCargos,
+      setVessels,
+      setPorts,
+      setRoutes,
+      showModal,
+    } = this.props;
 
-    this.mapcraft = new Mapcraft({
-      env: {
-        mapbox: {
-          token:
-            "pk.eyJ1IjoiYXlkaW5naGFuZSIsImEiOiJjazJpcXB1Zm8xamNvM21sNjlsMG95ejY3In0.jMuteEFuzviEuitJZ-DY2w",
-        },
-      },
-      styles: {
-        // light: "mapbox://styles/mapbox/streets-v11",
-        light: "/mapcraft/jsons/styles/light/style.json",
-      },
-      map: {
-        container: "app-map",
-        center: [35, 35],
-        zoom: 2,
-        hash: false,
-      },
-      controls: {
-        fullscreen: false,
-        geolocation: false,
-        navigation: true,
-      },
-      icons: {
-        port: "/assets/images/icon-port.png",
-        vessel: "/assets/images/icon-vessel.png",
-        default: "/assets/images/icon-default.png",
-      },
-      geoJsons: {
-        routes: "/data/routes.json",
-        ports: "/data/ports.json",
-        vessels: "/data/vessels.json",
-      },
-    });
+    this.mapcraft = initializeMapcraft();
 
     this.mapcraft.load().then(() => {
-      const { vessels, ports, routes } = this.mapcraft.geoJsons;
+      const { map, geoJsons } = this.mapcraft;
+      const { vessels, ports, routes } = geoJsons;
 
       setVessels(vessels);
       setPorts(ports);
       setRoutes(routes);
 
       const cargos = vessels.features.reduce(
-        (total, item) => [...total, ...item.properties.cargoes],
+        (total, item) => [...total, ...item.properties.cargos],
         []
       );
 
       setCargos(cargos);
+
+      map.on("click", "point-symbol-vessels", function (event) {
+        const { id, name } = event.features[0].properties;
+        const routes = JSON.parse(event.features[0].properties.routes);
+        const cargos = JSON.parse(event.features[0].properties.cargos);
+
+        showModal({ id, name, routes, cargos });
+      });
     });
   };
 }
@@ -96,6 +87,7 @@ const mapStateToProps = (state) => ({
   routes: state.geojsons.routes,
   allCargos: state.cargos.all,
   selectedCargo: state.cargos.selected,
+  modal: state.modal,
 });
 
 const mapDispatchToProps = (dispatch) =>
@@ -106,6 +98,8 @@ const mapDispatchToProps = (dispatch) =>
       setVessels,
       setPorts,
       setRoutes,
+      showModal,
+      hideModal,
     },
     dispatch
   );
