@@ -5,10 +5,10 @@ import "./modal.css";
 
 class Modal extends Component {
   render() {
-    const { modal, hideModal } = this.props;
+    const { modal, hideModal, selectedCargo } = this.props;
     const { visible, id, name, routes, cargos } = modal;
 
-    const modalClasses = classnames("sc-modal", {
+    const modalClasses = classnames("sc-modal sc-lg", {
       "sc-is-active": visible,
     });
 
@@ -18,24 +18,28 @@ class Modal extends Component {
 
     return (
       <>
-        <div class={modalClasses}>
-          <div class="sc-card">
-            <header class="sc-card-header">
+        <div className={modalClasses}>
+          <div className="sc-card">
+            <header className="sc-card-header">
               <h3>{name}</h3>
             </header>
 
-            <div class="sc-card-body">
+            <div className="sc-card-body">
               <h5>Cargos:</h5>
 
-              <div className="sc-grid-4">
-                {cargos.map((item) => (
-                  <span className="badge">{item.id}</span>
-                ))}
+              <div>
+                {cargos.map((item) => {
+                  const badgeClasses = classnames("badge", {
+                    "is-selected": item.id === selectedCargo,
+                  });
+
+                  return <span className={badgeClasses}>{item.id}</span>;
+                })}
               </div>
             </div>
 
-            <footer class="sc-card-footer">
-              <div class="sc-form-button sc-md sc-flex-rr">
+            <footer className="sc-card-footer">
+              <div className="sc-form-button sc-md sc-flex-rr">
                 <button type="button" onClick={hideModal}>
                   <span>Close</span>
                 </button>
@@ -44,7 +48,7 @@ class Modal extends Component {
           </div>
         </div>
 
-        <div class={overlayClasses} onClick={hideModal}></div>
+        <div className={overlayClasses} onClick={hideModal}></div>
       </>
     );
   }

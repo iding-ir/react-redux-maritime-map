@@ -1,7 +1,27 @@
 .badge {
+  display: inline-block;
   text-align: center;
   line-height: var(--icon-md);
+  margin: 2px;
   border-radius: var(--border-radius);
   color: var(--color-dark);
   background-color: var(--fade-dark-sm);
+  width: calc(100% / 4 - 4px);
+}
+
+@media only screen and (min-width: 840px) {
+  .badge {
+    width: calc(100% / 6 - 4px);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .badge {
+    width: calc(100% / 8 - 4px);
+  }
+}
+
+.badge.is-selected {
+  color: var(--color-light);
+  background-color: var(--color-secondary-light);
 }

@@ -39,7 +39,11 @@ class App extends Component {
 
         <Map />
 
-        <Modal modal={modal} hideModal={hideModal} />
+        <Modal
+          modal={modal}
+          hideModal={hideModal}
+          selectedCargo={selectedCargo}
+        />
       </div>
     );
   }
@@ -70,7 +74,7 @@ class App extends Component {
 
       setCargos(cargos);
 
-      map.on("click", "point-symbol-vessels", function (event) {
+      map.on("click", "point-symbol-vessels", (event) => {
         const { id, name } = event.features[0].properties;
         const routes = JSON.parse(event.features[0].properties.routes);
         const cargos = JSON.parse(event.features[0].properties.cargos);
