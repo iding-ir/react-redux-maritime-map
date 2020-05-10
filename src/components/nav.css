@@ -5,3 +5,17 @@
 .nav .sc-form-button {
   margin-left: var(--padding-sm);
 }
+
+.nav .cargo-seatch ~ div {
+  z-index: 9999;
+}
+
+.autocomplete-item {
+  padding: var(--padding-sm) var(--padding-md);
+}
+
+.autocomplete-highlighted {
+  padding: var(--padding-sm) var(--padding-md);
+  color: var(--color-light);
+  background-color: var(--color-secondary-light);
+}

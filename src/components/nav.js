@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Autocomplete from "react-autocomplete";
+import * as classnames from "classnames";
 
 import "./nav.css";
 
@@ -17,18 +18,21 @@ class Nav extends Component {
       item.id.toLowerCase().indexOf(value.toLowerCase()) > -1;
 
     const renderInput = (props) => (
-      <input {...props} type="search" placeholder="cargo-id (abc-1234)" />
+      <input
+        {...props}
+        className="cargo-seatch"
+        type="search"
+        placeholder="cargo-id (abc-1234)"
+      />
     );
 
-    const renderItem = (item, isHighlighted) => (
-      <div
-        style={{
-          background: isHighlighted ? "silver" : "white",
-        }}
-      >
-        {item.id}
-      </div>
-    );
+    const renderItem = (item, isHighlighted) => {
+      const classes = classnames("autocomplete-item", {
+        "autocomplete-highlighted": isHighlighted,
+      });
+
+      return <div className={classes}>{item.id}</div>;
+    };
 
     const onChange = (event) => setCargo(event.target.value);
 
