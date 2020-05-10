@@ -1,0 +1,7 @@
+.nav {
+  padding: var(--padding-md);
+}
+
+.nav .sc-form-button {
+  margin-left: var(--padding-sm);
+}

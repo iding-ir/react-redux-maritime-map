@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 import Mapcraft from "mapcraft";
-import "bootstrap/dist/css/bootstrap.css";
+import "stylecraft/dist/stylecraft.css";
 
 import "./app.css";
 import Nav from "./nav";

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.css";
 import Autocomplete from "react-autocomplete";
 
 import "./nav.css";
@@ -14,80 +13,64 @@ class Nav extends Component {
       setCargo,
     } = this.props;
 
+    const shouldItemRender = (item, value) =>
+      item.id.toLowerCase().indexOf(value.toLowerCase()) > -1;
+
+    const renderInput = (props) => (
+      <input {...props} type="search" placeholder="cargo-id (abc-1234)" />
+    );
+
+    const renderItem = (item, isHighlighted) => (
+      <div
+        style={{
+          background: isHighlighted ? "silver" : "white",
+        }}
+      >
+        {item.id}
+      </div>
+    );
+
+    const onChange = (event) => setCargo(event.target.value);
+
+    const onSelect = (value) => {
+      setCargo(value);
+
+      let geoJson = Object.assign({}, vessels);
+
+      geoJson.features = geoJson.features.filter((feature) => {
+        return feature.properties.cargoes.filter((cargo) => cargo.id === value)
+          .length;
+      });
+
+      mapcraft.fitBounds({
+        geoJson,
+      });
+    };
+
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">
-          G2 Ocean
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+      <nav className="nav">
+        <form className="sc-form sc-flex-r">
+          <div className="sc-form-text">
+            <Autocomplete
+              shouldItemRender={shouldItemRender}
+              getItemValue={(item) => item.id}
+              items={allCargos}
+              renderInput={renderInput}
+              renderItem={renderItem}
+              value={selectedCargo}
+              onChange={onChange}
+              onSelect={onSelect}
+            />
+          </div>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <form className="form-inline">
-            <div className="form-group my-2 my-lg-0">
-              <Autocomplete
-                shouldItemRender={(item, value) =>
-                  item.id.toLowerCase().indexOf(value.toLowerCase()) > -1
-                }
-                getItemValue={(item) => item.id}
-                items={allCargos}
-                renderInput={(props) => (
-                  <input
-                    {...props}
-                    id="app-search"
-                    className="form-control mr-2"
-                    type="search"
-                    placeholder="cargo-id (abc-1234)"
-                    aria-label="Search"
-                  />
-                )}
-                renderItem={(item, isHighlighted) => (
-                  <div
-                    style={{
-                      background: isHighlighted ? "lightgray" : "white",
-                    }}
-                  >
-                    {item.id}
-                  </div>
-                )}
-                value={selectedCargo}
-                onChange={(e) => setCargo(e.target.value)}
-                onSelect={(value) => {
-                  setCargo(value);
+          <div className="sc-form-button sc-md">
+            <button type="button">
+              <i className="sc-icon-search"></i>
 
-                  let geoJson = Object.assign({}, vessels);
-
-                  geoJson.features = geoJson.features.filter((feature) => {
-                    return feature.properties.cargoes.filter(
-                      (cargo) => cargo.id === value
-                    ).length;
-                  });
-
-                  mapcraft.fitBounds({
-                    geoJson,
-                  });
-                }}
-              />
-
-              <button
-                id="app-search-submit"
-                className="btn btn-primary my-2 my-sm-0"
-                type="submit"
-              >
-                Track
-              </button>
-            </div>
-          </form>
-        </div>
+              <span>Track</span>
+            </button>
+          </div>
+        </form>
       </nav>
     );
   }
