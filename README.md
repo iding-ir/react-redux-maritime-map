@@ -8,11 +8,11 @@
 
 ## Intro
 
-Maritime Map has been developed using React, Redux, [Mapcraft](https://github.com/iding-ir/mapcraft) (a mini sdk that I built around Mapbox GL JS) and Bootstrap.
+Maritime Map is a web application that is developed using React, Redux and [Mapcraft](https://github.com/iding-ir/mapcraft) (a mini sdk that I built around Mapbox GL JS).
 
-It receives and combines together data from 3 standard GeoJSON files for **routes**, **vessels** and **cargos**, and allows users track down cargos and vessels on the map.
+As for the UI, I used [Stylecraft](https://github.com/iding-ir/stylecraft), a CSS framework that I am developing from the scratch.
 
-For legacy jQuery version please visit [Here](https://github.com/iding-ir/g2-ocean).
+Maritime Map combines together data from three GeoJSON files (**routes**, **vessels** and **cargos**) and allows users to look up cargos on the map.
 
 ## Demo
 
