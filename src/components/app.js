@@ -10,6 +10,7 @@ import Nav from "./nav";
 import Map from "./map";
 import Modal from "./modal";
 import { setCargos, setCargo } from "../actions/cargos";
+import { setVessels, setPorts, setRoutes } from "../actions/geojsons";
 
 class App extends Component {
   componentDidMount() {
@@ -35,6 +36,8 @@ class App extends Component {
   }
 
   initializeMap = () => {
+    const { setCargos, setVessels, setPorts, setRoutes } = this.props;
+
     this.mapcraft = new Mapcraft({
       env: {
         mapbox: {
@@ -70,9 +73,13 @@ class App extends Component {
     });
 
     this.mapcraft.load().then(() => {
-      const { setCargos } = this.props;
+      const { vessels, ports, routes } = this.mapcraft.geoJsons;
 
-      const cargos = this.mapcraft.geoJsons.vessels.features.reduce(
+      setVessels(vessels);
+      setPorts(ports);
+      setRoutes(routes);
+
+      const cargos = vessels.features.reduce(
         (total, item) => [...total, ...item.properties.cargoes],
         []
       );
@@ -83,6 +90,9 @@ class App extends Component {
 }
 
 const mapStateToProps = (state) => ({
+  vessels: state.geojsons.vessels,
+  ports: state.geojsons.ports,
+  routes: state.geojsons.routes,
   allCargos: state.cargos.all,
   selectedCargo: state.cargos.selected,
 });
@@ -92,6 +102,9 @@ const mapDispatchToProps = (dispatch) =>
     {
       setCargos,
       setCargo,
+      setVessels,
+      setPorts,
+      setRoutes,
     },
     dispatch
   );
