@@ -9,7 +9,7 @@ import "./app.css";
 import Nav from "./nav";
 import Map from "./map";
 import Modal from "./modal";
-import { setCargos } from "../actions/cargos";
+import { setCargos, setCargo } from "../actions/cargos";
 
 class App extends Component {
   componentDidMount() {
@@ -17,11 +17,15 @@ class App extends Component {
   }
 
   render() {
-    const { cargos } = this.props;
+    const { allCargos, selectedCargo, setCargo } = this.props;
 
     return (
       <div className="app">
-        <Nav cargos={cargos} />
+        <Nav
+          allCargos={allCargos}
+          selectedCargo={selectedCargo}
+          setCargo={setCargo}
+        />
 
         <Map />
 
@@ -79,13 +83,15 @@ class App extends Component {
 }
 
 const mapStateToProps = (state) => ({
-  cargos: state.cargos,
+  allCargos: state.cargos.all,
+  selectedCargo: state.cargos.selected,
 });
 
 const mapDispatchToProps = (dispatch) =>
   bindActionCreators(
     {
       setCargos,
+      setCargo,
     },
     dispatch
   );
