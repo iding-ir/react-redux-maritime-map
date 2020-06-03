@@ -40,7 +40,7 @@
     "react-scripts": "3.4.1",
     "redux": "^4.0.5",
     "save": "^2.4.0",
-    "stylecraft": "^0.10.0"
+    "stylecraft": "^1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
