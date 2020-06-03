@@ -76,7 +76,7 @@ class Nav extends Component {
     return (
       <nav className="nav">
         <form className="sc-form">
-          <div className="block  sc-flex-r">
+          <div className="block sc-flex-r">
             <div className="sc-form-text">
               <Autocomplete
                 shouldItemRender={shouldItemRender}
@@ -88,14 +88,6 @@ class Nav extends Component {
                 onChange={onChangeAutocomplete}
                 onSelect={onSelectAutocomplete}
               />
-            </div>
-
-            <div className="sc-form-button sc-md">
-              <button type="button">
-                <i className="sc-icon-search"></i>
-
-                <span>Track</span>
-              </button>
             </div>
           </div>
 
