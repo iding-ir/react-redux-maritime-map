@@ -7,7 +7,7 @@ import "mapbox-gl/dist/mapbox-gl.css";
 import "./css/index.css";
 import "./css/mapbox-hacks.css";
 import "./css/hacks.css";
-import App from "./components/app";
+import App from "./components/App";
 import store from "./stores";
 
 ReactDOM.render(

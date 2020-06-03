@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Autocomplete from "react-autocomplete";
 import * as classnames from "classnames";
 
-import "./nav.scss";
+import "./Nav.scss";
 
 class Nav extends Component {
   render() {

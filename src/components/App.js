@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
 
-import "./app.scss";
-import Nav from "./nav";
-import Map from "./map";
-import Modal from "./modal";
+import "./App.scss";
+import Nav from "./Nav";
+import Map from "./Map";
+import Modal from "./Modal";
 import initializeMapcraft from "../utils/initializeMap";
 import { setCargos, setCargo } from "../actions/cargos";
 import { setVessels, setPorts, setRoutes } from "../actions/geojsons";
